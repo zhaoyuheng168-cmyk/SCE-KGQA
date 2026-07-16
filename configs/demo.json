@@ -1,0 +1,7 @@
+{
+  "mode": "sample",
+  "sample_data": "data/samples/graph_sample.json",
+  "max_displayed_answers": 20,
+  "enable_external_model": false,
+  "enable_remote_database": false
+}
