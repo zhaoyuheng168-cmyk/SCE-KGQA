@@ -1,0 +1,62 @@
+[
+  {
+    "file": "专项生成测试集评测公共函数.py",
+    "sha256": "d08d3c840574b12467f76e1e1fd3537eaf2ed5dcdebb910b6fa927743ed77e4c",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "千问3.5plus自由问答批量评测脚本.py",
+    "sha256": "3e2e96b5bdb610371dce8ff6e61e70fc8e87f2a26585b746162cd5184b8985ce",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "多跳测试集批量评测脚本.py",
+    "sha256": "7e228f1de065eedc7b9f384a12c3a545d2127c9a30c19ce08b6654cb52136d7f",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "封闭测试集1批量评测脚本.py",
+    "sha256": "93443e7ce858b6c18ccebd5cbf809311047edc6de0e32b0b4a128831ebe10a7a",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "封闭测试集2批量评测脚本.py",
+    "sha256": "62293c3971f74fb6640c9b6835b61a736eb0b4a83e9c9b4130479be80ac41b16",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "封闭测试集3批量评测脚本.py",
+    "sha256": "25c50198f96f919d564205b422d3bc2b06c480f893eda0421500219aa505a1a5",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "封闭测试集批量评测公共函数.py",
+    "sha256": "74d2dfeaabb839a14aecb53204b118aa673752cd704c5753a903486f638cb547",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "真实自由问答relation_valid分析_v2.py",
+    "sha256": "b49b3a1a02eed3c54f1eef64bd9ed29be59a77f97b0d7140d4babbda8feb5c10",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "真实自由问答_分类型PrecisionF1评测_v4.py",
+    "sha256": "85d01882dd06bb6edb07c64ca0aad0823e14a26bb066dab0efd0d289bcd0fa43",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "真实自由问答测试集批量评测_v1.py",
+    "sha256": "7832eb65287764ebe4f3d5a1ea28fa85b32c715c1b2c63d2c868cb1d04c84457",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "规则推理测试集批量评测脚本.py",
+    "sha256": "70cae2c5ceeb7d2aed553bf8c59c79bf932a8e029192a8a77176c68ce09f5731",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  },
+  {
+    "file": "非结构化文本批量评测脚本.py",
+    "sha256": "751cc5af723bce3edeaea735c85a92cbea789accdd437be88a2e41dc2c7d9b68",
+    "source": "Existing 2026-09-09 delivery, unchanged at recovery"
+  }
+]

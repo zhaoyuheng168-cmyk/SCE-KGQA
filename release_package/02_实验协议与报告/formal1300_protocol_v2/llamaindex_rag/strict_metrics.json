@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.5084615384615384,
+  "precision": 0.5639717216766561,
+  "recall": 0.5736505943889191,
+  "f1": 0.5261604706911667,
+  "refusal_accuracy": 1.0,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.916083916083916,
+      "precision": 0.8883631228910948,
+      "recall": 0.9548035298035298,
+      "f1": 0.8974768054911595
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.6823529411764706,
+      "precision": 0.7088989441930619,
+      "recall": 0.6914438502673796,
+      "f1": 0.6949915966386555
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.9125,
+      "precision": 0.783983585858586,
+      "recall": 0.9284598214285715,
+      "f1": 0.8163073486970547
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.7894736842105263,
+      "precision": 0.7553236539624926,
+      "recall": 0.841374269005848,
+      "f1": 0.7750631496128204
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.029661016949152543,
+      "precision": 0.5107951162286838,
+      "recall": 0.1726035972103351,
+      "f1": 0.22408200330738853
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.0,
+      "precision": 0.24957360359321135,
+      "recall": 0.3984391534391532,
+      "f1": 0.2981325294561335
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8433734939759037,
+      "precision": 0.8433734939759037,
+      "recall": 0.8433734939759037,
+      "f1": 0.8433734939759037
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.704,
+      "precision": 0.40405887445887456,
+      "recall": 0.704,
+      "f1": 0.4554868686868685
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.0055248618784530384,
+      "precision": 0.004475138121546962,
+      "recall": 0.0075797227876320625,
+      "f1": 0.005401265934535211
+    }
+  }
+}

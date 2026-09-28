@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "archive_sha256",
+      "passed": true
+    },
+    {
+      "check": "unique_zip_members",
+      "passed": true
+    },
+    {
+      "check": "zip_crc",
+      "passed": true
+    },
+    {
+      "check": "zip_members_match_manifest",
+      "passed": true
+    },
+    {
+      "check": "all_member_sha256",
+      "passed": true,
+      "files": 6689,
+      "mismatches": []
+    },
+    {
+      "check": "raw_source_exclusions",
+      "passed": true,
+      "files": 859
+    },
+    {
+      "check": "core_data_unchanged_from_original",
+      "passed": true,
+      "files": 7
+    },
+    {
+      "check": "archive_unchanged_after_validation",
+      "passed": true
+    },
+    {
+      "check": "expanded_reproduction_assets_present",
+      "passed": true,
+      "files": 8,
+      "missing": []
+    },
+    {
+      "check": "historical_model_hashes",
+      "passed": true
+    },
+    {
+      "check": "safety_reviews_bound_to_asset_hashes",
+      "passed": true,
+      "reviewed_patterns": 1458,
+      "unique_review_keys": 853
+    },
+    {
+      "check": "staging_secret_scan",
+      "passed": true,
+      "scanned_files": 7278
+    },
+    {
+      "check": "payload_safety_findings",
+      "passed": true,
+      "findings": 0
+    },
+    {
+      "check": "repository_safety_scan",
+      "passed": true,
+      "scanned_files": 347,
+      "critical_count": 0,
+      "review_count": 0
+    }
+  ],
+  "github_uploaded": false
+}

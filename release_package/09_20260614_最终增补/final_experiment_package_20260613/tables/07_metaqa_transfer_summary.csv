@@ -1,0 +1,5 @@
+﻿setting,questions,route_accuracy,exact_match,macro_f1
+Oracle-qtype Test,39093,100% by definition,98.619%,99.511%
+"Official Test predicted-route, seen templates",39093,100.000%,98.619%,99.511%
+Five-fold unseen-template mean,329282 across folds,79.765% ± 6.473%,79.180% ± 6.357%,81.117% ± 6.075%
+Five-fold unseen-template weighted,329282,79.670%,79.081%,81.028%

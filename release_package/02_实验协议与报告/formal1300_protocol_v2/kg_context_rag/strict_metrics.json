@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.18692307692307691,
+  "precision": 0.23950815850815843,
+  "recall": 0.21276465990135884,
+  "f1": 0.2043858244035803,
+  "refusal_accuracy": 1.0,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.11188811188811189,
+      "precision": 0.18783640601822418,
+      "recall": 0.15788378288378288,
+      "f1": 0.16200822566840445
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.15294117647058825,
+      "precision": 0.33,
+      "recall": 0.242156862745098,
+      "f1": 0.2589344968756733
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.15625,
+      "precision": 0.2199242424242424,
+      "recall": 0.19709821428571425,
+      "f1": 0.19355909183695566
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.07894736842105263,
+      "precision": 0.07894736842105263,
+      "recall": 0.07894736842105263,
+      "f1": 0.07894736842105263
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.0211864406779661,
+      "precision": 0.05367231638418079,
+      "recall": 0.02311991089618572,
+      "f1": 0.024530613711559398
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.0,
+      "precision": 0.4388888888888889,
+      "recall": 0.11937830687830692,
+      "f1": 0.18300384800384803
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8433734939759037,
+      "precision": 0.8433734939759037,
+      "recall": 0.8433734939759037,
+      "f1": 0.8433734939759037
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.272,
+      "precision": 0.0881142857142857,
+      "recall": 0.272,
+      "f1": 0.11942222222222222
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.0055248618784530384,
+      "precision": 0.05017220348712061,
+      "recall": 0.014902114418731903,
+      "f1": 0.018608616528590985
+    }
+  }
+}

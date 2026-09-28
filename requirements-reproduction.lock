@@ -1,0 +1,12 @@
+# Portable CPU/reference runtime. Install the matching CUDA PyTorch wheel for GPU use.
+# These are reproduction pins, not a claim about every package on the historical server.
+-r requirements-core.lock
+torch==2.6.0
+transformers==4.51.3
+sentence-transformers==3.4.1
+huggingface-hub==0.34.4
+safetensors==0.5.3
+faiss-cpu==1.11.0
+scikit-learn==1.6.1
+scipy==1.15.3
+joblib==1.4.2

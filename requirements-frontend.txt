@@ -1,0 +1,3 @@
+-r requirements-core.lock
+streamlit
+pyvis==0.3.2

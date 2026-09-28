@@ -1,0 +1,11 @@
+{
+  "version": "2026.09.28",
+  "archive": "SCE-KGQA_public_assets_20260928.zip",
+  "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip",
+  "publication_state": "prepared; attachment integrity verified before publishing",
+  "sha256": "46047a76dfe2ab7ad858ea17aa279c9c926a87b3a001997a688a526716b0113c",
+  "bytes": 339299260,
+  "model_policy": "BGE bundled; original KoPL obtained from pinned publisher revision",
+  "uncompressed_bytes": 2361796997,
+  "files": 6690
+}

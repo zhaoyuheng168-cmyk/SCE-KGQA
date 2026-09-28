@@ -1,132 +1,113 @@
-# SCE-KGQA：科技金融知识图谱增强问答系统
+# 甘肃省科技金融知识图谱问答系统
 
-> 项目时间：2026 年 3 月至 2026 年 7 月  
-> 论文状态：已投稿，尚未录用
+SCE-KGQA — 完整研究复现交付版，版本 `2026.09.28`。
 
-## 项目概述
+本项目围绕领域 Schema、Neo4j 图查询、显式多跳、规则推理、实体归一、
+证据检索和拒答边界实现科技金融知识图谱问答。
 
-SCE-KGQA 面向甘肃省科技金融知识服务，将政策、金融机构、产品、企业、地区、产业和服务事件组织为业务知识图谱。系统通过实体归一、Schema 路径约束、图查询、规则筛选、证据辅助和边界拒答处理跨对象问题，并保留可检查的关系路径与支持说明。本仓库提供轻量演示、脱敏核心代码和冻结结果摘要。
+## 完整资产入口
 
-## 解决的问题
+| 资产 | 位置 | 规模 |
+|---|---|---:|
+| 正式问题与原始 Gold | `release_package/04_数据与知识资源/benchmark/gtf_kgqa_1300_formal.csv` | 1300 题 |
+| 正式评分 expanded Gold | `release_package/04_数据与知识资源/benchmark/gtf_kgqa_1300_formal_expanded_gold.csv` | 1300 题 |
+| 全量冻结图谱 | `release_package/04_数据与知识资源/runtime_data/neo4j_export/` | 1707 节点、31018 关系 |
+| 图谱语料 | `release_package/04_数据与知识资源/corpus/kg_triples_corpus.jsonl` | 22152 条 |
+| 加工后的完整证据语料 | `release_package/04_数据与知识资源/corpus/evidence_corpus.jsonl` | 5612 条 |
+| 合并检索语料 | `release_package/04_数据与知识资源/corpus/merged_rag_corpus.jsonl` | 27764 条 |
+| 完整研究源码、适配器、评分器 | `release_package/05_复现源码/` | 冻结研究实现 |
+| 正式逐题输出 | `release_package/03_正式结果/` | 对比与消融 |
+| 正式汇总表 | `release_package/09_20260614_最终增补/final_experiment_package_20260613/tables/` | 比较、消融、补充实验 |
+| KQA Pro 迁移脚本与结果 | `release_package/10_kqapro_transfer/` | 冻结迁移实验 |
 
-政策文件、产品说明和企业服务记录分散在不同来源中，仅依靠文本相似度难以判断实体类型、关系方向和答案边界。SCE-KGQA 将问题落到领域 Schema 允许的路径上，再执行图查询或规则筛选；当实体、路径或支持依据不足时，系统返回边界说明，而不是强行生成答案。
+正式主结果使用 **expanded Gold** 评分。原始 Gold 和 expanded Gold 同时保留，不能互相替换。
+图谱边数和检索三元组条数属于不同统计口径。
 
-## 系统架构
+## 不调用模型即可检查数据并复算正式结果
 
-![SCE-KGQA 总体问答流程](docs/assets/sce_kgqa_architecture.png)
-
-主链路为：问题解析与实体归一 → Schema 合法性检查 → 查询计划生成 → 图路径/规则/证据执行 → Schema、Evidence、Task 一致性校验 → 答案或拒答。详细说明见 [docs/architecture.md](docs/architecture.md)。
-
-## 主要技术模块
-
-| 模块 | 作用 |
-|---|---|
-| 实体归一 | 将企业简称、机构简称和弱表达映射到规范实体 |
-| Schema 约束 | 检查实体类型、关系方向、终点类型和合法路径 |
-| 图路径执行 | 支持直接查询、反向关系和显式多跳路径 |
-| 规则推理 | 按地区、产业、资质和产品条件筛选候选实体 |
-| 证据辅助 | 用于来源追溯、事件解释和弱召回补充 |
-| 边界拒答 | 在实体无法落地、路径不合法或支持不足时停止输出 |
-
-## 我的主要工作
-
-本人负责需求拆解、领域 Schema 设计、数据处理、环境部署、系统调试、实验设计、结果核验和论文撰写，并围绕正式测试问题持续定位实体归一、关系方向、规则执行、证据对齐与拒答边界问题。
-
-## 技术栈
-
-Python、Neo4j/Cypher、Streamlit、稀疏与向量检索、规则推理、Schema 约束、JSON/JSONL 数据处理、Git。
-
-## 数据与实验规模
-
-| 统计项 | 冻结数值 |
-|---|---:|
-| 知识图谱节点 | 1707 |
-| 图谱关系 | 31018 |
-| 业务实体类型 | 11 |
-| 关系类型 | 20 |
-| 图谱三元组检索记录 | 22152 |
-| 文本证据片段 | 5612 |
-| 合并检索语料 | 27764 |
-| 正式测试题 | 1300 |
-
-## 正式实验结果
-
-| 方法 | Strict Acc. | Task-aware Success |
-|---|---:|---:|
-| SCE-KGQA | 88.23% | 92.23% |
-| HybridRAG | 52.62% | 55.08% |
-| Text+KG RAG | 52.46% | 54.85% |
-| BM25-RAG | 51.31% | 53.46% |
-| Vector-RAG | 48.77% | 51.23% |
-| Graph-only KGQA | 43.62% | 47.31% |
-| Rule-based KGQA | 42.85% | 45.15% |
-
-上述数字来自冻结的 1300 题正式结果文件，未在展示仓库中重新计算。完整公开表见 [results/official](results/official)，评测口径见 [docs/evaluation.md](docs/evaluation.md)。
-
-## 快速体验
-
-Windows：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\run_demo_windows.ps1
-```
-
-Linux/macOS：
+完整图谱、加工证据、向量索引、原实验逐题输出和迁移数据保留全量，通过 [Release 附件](https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/tag/v2026.09.28) 交付。
+使用以下命令自动下载、核对 SHA256 并恢复到仓库（也支持 --archive 指定本地 ZIP）：
 
 ```bash
-bash scripts/run_demo_linux.sh
+python scripts/fetch_assets.py
 ```
 
-不启动网页也可以运行快速检查：
+完成附件恢复后运行：
 
 ```bash
-python tests/smoke_test.py
+python tools/validate_release.py
+pip install -r requirements-core.lock
+python scripts/recompute_metrics.py --method sce_kgqa_full
 ```
 
-## 样例问题和输出
+预期正式主结果：1300 题，Strict accuracy `88.230769%`，
+Task-aware success `92.230769%`。消融 Full System `88.31%` 是另一份冻结输出，
+不能拿来覆盖主比较结果。历史说明和废弃结果见 `INVALID_RESULTS_NOTICE_ZH.md`。
 
-```text
-问题：交通银行通过科创快贷主要服务到了哪些企业特征？
-答案：专精特新中小企业
-路径：交通银行 -[providesProduct]-> 科创快贷
-      -[servesEnterprise]-> 企业 -[hasFeature]-> 专精特新中小企业
+## 从干净环境启动实际问答后端
+
+需要 Docker、Python 3.10 或更新版本。生成式路由如需调用在线模型，使用自己的 API Key。
+
+```bash
+cp .env.example .env
+# 编辑 .env，为本地 Neo4j 设置自己的密码。
+docker compose up -d neo4j
+pip install -r requirements-core.lock
+python scripts/restore_graph.py
+python scripts/prepare_runtime.py
+python scripts/run_qa.py --check
+python scripts/run_qa.py "甘肃银行提供哪些科技金融产品？"
 ```
 
-样例中的 `servesEnterprise` 属于基于产品目标群体与企业特征建立的扩展关系，不等同于真实贷款事件。更多样例见 [examples/questions.json](examples/questions.json)。
+Windows PowerShell 使用 `Copy-Item .env.example .env`。
+若需要完整向量辅助功能，再执行：
 
-## 界面示例
-
-![SCE-KGQA 匿名化轻量展示界面](docs/assets/research_prototype_ui.png)
-
-该截图来自公开展示仓库中的匿名化轻量演示；界面不依赖完整图谱，也不包含正式测试集 Gold。
-
-## 项目目录
-
-```text
-src/sce_kgqa/          轻量引擎与脱敏科研核心快照
-app/streamlit/         展示界面
-data/samples/          少量公开图谱样例，不含正式 Gold
-results/official/      冻结主对比表和消融来源表
-docs/                  架构、数据、评测和招聘速览
-examples/              示例问题与命令行入口
-tests/                 无外部服务的 smoke test
+```bash
+pip install -r requirements-reproduction.lock
+# 历史 BGE 已包含在完整附件中；无需再次下载。
 ```
 
-## 数据与许可说明
+完整附件包含与历史服务器一致的 BGE 模型，模型清单记录版本及文件哈希。
+本包没有自研大模型权重；历史生成模型通过 API 调用，BGE 为第三方嵌入模型。
+见 `models/MODEL_MANIFEST.json` 和 `docs/ENVIRONMENT_ZH.md`。
 
-仓库仅包含从冻结图谱中抽取的少量脱敏样例，不包含原始网页、PDF、完整图谱、完整证据库或 1300 题 Gold。样例仅用于理解代码流程，不构成新的公开评测集。当前仓库可公开查看，但最终代码和数据许可证尚待确认；在许可证确定前，不授予复制、再分发或衍生使用许可，具体以 [LICENSE_PLACEHOLDER.md](LICENSE_PLACEHOLDER.md) 为准。
+## 前端
 
-## 当前限制
+```bash
+pip install -r requirements-frontend.txt
+streamlit run app/frontend_streamlit/app.py
+```
 
-- 轻量演示不连接完整 Neo4j 图谱，也不复算论文指标。
-- 完整科研系统依赖未公开的全量数据、索引和冻结运行环境。
-- 样例只覆盖部分实体和关系，不代表完整业务覆盖范围。
-- 当前方法依赖预设 Schema，面对新增政策、产品和企业时需要更新知识资源。
+前端读取正式 1300 题、冻结结果与图谱，不再展示旧 1200 题 headline。
+实际问答按钮调用公开源码，而不是读取 Gold 返回答案。
 
-## 论文状态
+## 发布与许可
 
-配套论文已投稿，尚未录用。本仓库不得被引用为论文已经发表或正式录用的证明。
+项目自有代码沿用 MIT。项目自有问题标注、Gold、研究文档与结果表使用 CC BY 4.0，
+该授权仅涵盖项目有权许可的部分。第三方原始文献、网页、模型与外部数据继续适用原条款。
+完整证据和图谱中的来源文本不因加入本项目而自动变成 MIT 或 CC BY 4.0。
+见 `DATA_LICENSE_ZH.md`、`THIRD_PARTY_NOTICES.md`、`SOURCE_RIGHTS_MANIFEST.csv`。
 
-## 开发说明
+发布布局为 **代码和 Gold 仓库 + 全量数据/结果 ZIP 附件**。原始网页全文、
+服务器镜像、历史凭据、缓存和数据库数据卷不进入公开附件。
+所有保留资产及排除项均有清单；具体发布状态见 `RELEASE_STATUS_ZH.md`。
+项目引用见 `CITATION.cff`。
 
-项目由作者主导，GPT 和 Codex 用于辅助代码生成、排错和工程迭代；需求定义、Schema 设计、数据处理、实验设计、结果核验和论文撰写由作者负责。
+## 原实验入口与迁移范围
+
+迁移只保留当时完成的程度。完整源码与历史结果已交付，部署后的执行入口、实际验收边界见 `docs/REPRODUCTION_SCOPE_ZH.md` 和 `VALIDATION_REPORT_ZH.md`。
+
+```bash
+python scripts/run_experiments.py --suite main
+# 查看计划后加 --execute 运行；其余 suite: ablation / natural / stress / kqapro-frozen
+```
+
+## 迁移模型
+
+BGE 历史模型已包含于附件。KoPL 原模型使用固定官方版本，执行以下命令下载并核对历史权重 SHA256：
+
+```bash
+python scripts/download_models.py --model kopl
+```
+
+公开包保留 KQA Pro 原数据、冻结候选、逐题预测和原迁移脚本，仅复现当时完成的迁移范围。

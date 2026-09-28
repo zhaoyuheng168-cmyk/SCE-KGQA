@@ -1,0 +1,4 @@
+﻿method,questions,correct,exact_match_pct,executable_pct,nonempty_pct,protocol
+bart_top1,11697,10584,90.485,94.127,92.400,question_only_nonoracle
+schema_selected,11697,10505,89.809,93.708,91.878,question_only_nonoracle
+sce_full_selected,11697,10904,93.220,97.093,96.067,question_only_nonoracle

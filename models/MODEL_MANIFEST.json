@@ -1,0 +1,36 @@
+{
+  "embedding_model": {
+    "repo_id": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "license": "mit",
+    "upstream_url": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+    "redistributed": true,
+    "historical_server_weight_match": "Recovered model files are byte-identical to the archived server snapshot",
+    "bundled_directory": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5",
+    "redistributed_in_local_candidate": true,
+    "historical_safetensors_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+    "redistributed_in_public_assets": true
+  },
+  "online_generator": {
+    "provider": "DashScope OpenAI-compatible API",
+    "formal_model": "qwen3.5-plus",
+    "temperature": 0,
+    "enable_thinking": false,
+    "weights_in_project": false
+  },
+  "project_trained_weights": "No project-trained weight file found in the frozen research package.",
+  "kopl_parser": {
+    "repo_id": "THU-KEG/kopl_semantic_parser",
+    "revision": "85f54592b1b5aeea1038e9180fe25098776d24e5",
+    "bundled_directory": "release_package/10_kqapro_transfer/models/kopl_semantic_parser",
+    "historical_pytorch_sha256": "62467aaa58591245cfa7be7c174097e8f0266f16c0e5d435534eb1875ad2cf0a",
+    "public_redistribution_license": "not established; obtain original weights directly from pinned upstream revision",
+    "excluded_training_state": [
+      "optimizer.pt",
+      "scheduler.pt",
+      "training_args.bin"
+    ],
+    "redistributed_in_public_assets": false,
+    "download_command": "python scripts/download_models.py --model kopl"
+  }
+}

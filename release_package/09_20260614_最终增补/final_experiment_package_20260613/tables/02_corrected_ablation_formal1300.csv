@@ -1,0 +1,8 @@
+﻿version,strict_accuracy_pct,strict_macro_f1_pct,delta_vs_full_pp,source
+Full System,88.31,79.13,0.00,20260604 full
+w/o embedding enhancement,82.23,73.51,-6.08,20260604 full ablation
+w/o multihop reasoning,85.77,67.18,-2.54,20260604 full ablation
+w/o reverse relation,80.08,71.96,-8.23,20260604 full ablation
+w/o rule reasoning,81.00,72.07,-7.31,20260605 strict-boundary rerun
+w/o open relation module,84.54,75.53,-3.77,20260605 strict-boundary rerun
+w/o boundary/refusal gate,80.54,86.04,-7.77,20260605 strict-boundary rerun; F1 is non-refusal macro F1

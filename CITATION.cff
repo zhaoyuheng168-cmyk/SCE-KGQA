@@ -1,13 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this showcase, please cite the software repository after its public release."
-title: "SCE-KGQA: Schema-Constrained and Evidence-Assisted Knowledge Graph Question Answering"
+title: "甘肃省科技金融知识图谱问答系统"
+message: "使用本项目时，请引用本软件版本并注明具体数据资产。"
 type: software
 authors:
-  - family-names: Zhao
-    given-names: Yuheng
-version: 0.1.0-showcase
-abstract: >-
-  A public, lightweight showcase of a schema-constrained and evidence-assisted
-  knowledge graph question answering system for regional science and
-  technology finance knowledge services. The related manuscript has been
-  submitted and has not been accepted or published.
+  - name: "SCE-KGQA contributors"
+repository-code: "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA"
+version: "2026.09.28"
+date-released: "2026-09-28"
+license: MIT
+keywords:
+  - KGQA
+  - knowledge graph
+  - technology finance

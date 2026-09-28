@@ -1,0 +1,82 @@
+[
+  {
+    "path": "release_package/10_kqapro_transfer/frozen/kqapro_val_questions_only.jsonl",
+    "sha256": "4ece3e159a34f800f6fa4c175e70c65c389e75805167b52b80e680f4195544d0",
+    "origin": "Existing frozen local artifact"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/frozen/kqapro_holdout_11697_bart_top5_candidates.jsonl",
+    "sha256": "5aee2b47a74f5403ed133dcfb9f35742ee5a16316436caa4c485e7959b3c2f8c",
+    "origin": "Existing frozen local artifact"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/frozen/kqapro_holdout_11697_sce_schema_selected.jsonl",
+    "sha256": "8db2be64f5194f6e99e0c078c8614a0538ecf3e6d496b2be35ea0c27959fbc57",
+    "origin": "Existing frozen local artifact"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/frozen/kqapro_holdout_11697_sce_blind_predictions.jsonl",
+    "sha256": "53a5d7babb2b1c87d4e947c80c68d896ec321b632a411bd36646adf42fd39627",
+    "origin": "Existing frozen local artifact"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/frozen/kqapro_holdout_11697_ablation_predictions.jsonl",
+    "sha256": "54ae9aacee8ce4ff47c4d5a5fcea8f6b9aa95a7d9d807e4b06073f1e52c1f14c",
+    "origin": "Existing frozen local artifact"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/scripts/derive_frozen_ablation_predictions.py",
+    "sha256": "e03c533c5ff7b03980170dc667c48708bc1f909c79f8abea95b38df19e447ea0",
+    "origin": "Existing local research analysis source; portability edits follow"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/scripts/score_frozen_ablation_and_types.py",
+    "sha256": "9c9c75af62de9c829634c328b85abb867fdd5fda3ffdde4915bb575ed9b11de4",
+    "origin": "Existing local research analysis source; portability edits follow"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/models/kopl_semantic_parser/config.json",
+    "sha256": "c26239954eb936abe92d902cc96ac26316af89adb71d32ccd87d7e0f61923e99",
+    "origin": "Historical THU-KEG parser snapshot; model-card license not established for public redistribution"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/models/kopl_semantic_parser/merges.txt",
+    "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "origin": "Historical THU-KEG parser snapshot; model-card license not established for public redistribution"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/models/kopl_semantic_parser/vocab.json",
+    "sha256": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab",
+    "origin": "Historical THU-KEG parser snapshot; model-card license not established for public redistribution"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/models/kopl_semantic_parser/pytorch_model.bin",
+    "sha256": "62467aaa58591245cfa7be7c174097e8f0266f16c0e5d435534eb1875ad2cf0a",
+    "origin": "Historical THU-KEG parser snapshot; model-card license not established for public redistribution"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/models/kopl_semantic_parser/README.md",
+    "sha256": "404fe69b563b16b82b4fcf7b9e1c95dc8f40e8d021c3fc6c387e2cda4577cdff",
+    "origin": "Historical THU-KEG parser snapshot; model-card license not established for public redistribution"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/data/kqapro/kb.json",
+    "sha256": "04da7408320c5cb7023c44372cce32846d56d369d8865d2e61a18c3956661a7c",
+    "origin": "OpenDataLab/KQA_Pro public mirror; byte-identical to June download; CC BY-SA 4.0"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/data/kqapro/val.json",
+    "sha256": "b4aed6ab3d7ad071722064fe3bb02bc028cfbeb15da5f7115d57a1e2d198f3bb",
+    "origin": "OpenDataLab/KQA_Pro public mirror; byte-identical to June download; CC BY-SA 4.0"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/data/kqapro/train.json",
+    "sha256": "e9fbe4c1cdf207aac83ae0d5e4a1a53a9965a2b13b403de699ca6d5dae6e4510",
+    "origin": "OpenDataLab/KQA_Pro public mirror; byte-identical to June download; CC BY-SA 4.0"
+  },
+  {
+    "path": "release_package/10_kqapro_transfer/data/kqapro/test.json",
+    "sha256": "b2142ed6124ae525b7d7fd8d1edb338c1b025751ac0167ff1498608111911822",
+    "origin": "OpenDataLab/KQA_Pro public mirror; byte-identical to June download; CC BY-SA 4.0"
+  }
+]

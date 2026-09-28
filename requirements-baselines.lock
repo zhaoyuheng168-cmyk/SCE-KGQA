@@ -1,0 +1,4 @@
+-r requirements-reproduction.lock
+langchain-core==0.3.68
+langchain-community==0.3.27
+llama-index-core==0.12.46

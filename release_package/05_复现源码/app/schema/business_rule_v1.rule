@@ -1,0 +1,67 @@
+namespace GansuTechFinanceDevV1Enhance
+
+Policy:
+    rule: [[
+        Define (s:Policy)-[p:hasCoverageRegion]->(o:Region) {
+            Structure {
+                (s)-[:supports]->(fp:FinancialProduct)-[:servesEnterprise]->(e:Enterprise)-[:locatedIn]->(o)
+            }
+            Constraint {
+            }
+        }
+    ]]
+
+Policy:
+    rule: [[
+        Define (s:Policy)-[p:hasCoverageIndustry]->(o:IndustrySegment) {
+            Structure {
+                (s)-[:supports]->(fp:FinancialProduct)-[:servesEnterprise]->(e:Enterprise)-[:belongsToIndustry]->(o)
+            }
+            Constraint {
+            }
+        }
+    ]]
+
+FinancialInstitution:
+    rule: [[
+        Define (s:FinancialInstitution)-[p:hasServiceFocusIndustry]->(o:IndustrySegment) {
+            Structure {
+                (s)-[:providesProduct]->(fp:FinancialProduct)-[:servesEnterprise]->(e:Enterprise)-[:belongsToIndustry]->(o)
+            }
+            Constraint {
+            }
+        }
+    ]]
+
+FinancialProduct:
+    rule: [[
+        Define (s:FinancialProduct)-[p:fitsEnterpriseFeature]->(o:QualificationCreditFeature) {
+            Structure {
+                (s)-[:servesEnterprise]->(e:Enterprise)-[:hasFeature]->(o)
+            }
+            Constraint {
+            }
+        }
+    ]]
+
+Enterprise:
+    rule: [[
+        Define (s:Enterprise)-[p:potentiallyMatchesProduct]->(o:FinancialProduct) {
+            Structure {
+                (s)-[:hasFeature]->(f:QualificationCreditFeature)<-[:fitsEnterpriseFeature]-(o)
+            }
+            Constraint {
+            }
+        }
+    ]]
+
+Enterprise:
+    rule: [[
+        Define (s:Enterprise)-[p:potentiallyMatchesPolicy]->(o:Policy) {
+            Structure {
+                (s)-[:potentiallyMatchesProduct]->(fp:FinancialProduct)<-[:supports]-(o)
+            }
+            Constraint {
+            }
+        }
+    ]]

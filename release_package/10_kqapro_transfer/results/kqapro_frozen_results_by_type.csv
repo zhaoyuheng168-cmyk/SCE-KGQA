@@ -1,0 +1,55 @@
+﻿variant,label,complexity_bucket,questions,correct,exact_match_pct
+bart_top1,BART top-1,compositional,1605,1537,95.763
+bart_top1,BART top-1,multihop,1035,908,87.729
+bart_top1,BART top-1,multihop_compositional,2513,2267,90.211
+bart_top1,BART top-1,qualifier_or_evidence,2575,2165,84.078
+bart_top1,BART top-1,simple_or_attribute,2540,2418,95.197
+bart_top1,BART top-1,verification,1429,1289,90.203
+execution_only,BART top-5 + execution feedback,compositional,1605,1557,97.009
+execution_only,BART top-5 + execution feedback,multihop,1035,949,91.691
+execution_only,BART top-5 + execution feedback,multihop_compositional,2513,2346,93.355
+execution_only,BART top-5 + execution feedback,qualifier_or_evidence,2575,2313,89.825
+execution_only,BART top-5 + execution feedback,simple_or_attribute,2540,2467,97.126
+execution_only,BART top-5 + execution feedback,verification,1429,1340,93.772
+sce_full,SCE full,compositional,1605,1541,96.012
+sce_full,SCE full,multihop,1035,938,90.628
+sce_full,SCE full,multihop_compositional,2513,2331,92.758
+sce_full,SCE full,qualifier_or_evidence,2575,2300,89.320
+sce_full,SCE full,simple_or_attribute,2540,2461,96.890
+sce_full,SCE full,verification,1429,1333,93.282
+sce_wo_evidence,SCE w/o fact-evidence bonus,compositional,1605,1540,95.950
+sce_wo_evidence,SCE w/o fact-evidence bonus,multihop,1035,930,89.855
+sce_wo_evidence,SCE w/o fact-evidence bonus,multihop_compositional,2513,2326,92.559
+sce_wo_evidence,SCE w/o fact-evidence bonus,qualifier_or_evidence,2575,2301,89.359
+sce_wo_evidence,SCE w/o fact-evidence bonus,simple_or_attribute,2540,2461,96.890
+sce_wo_evidence,SCE w/o fact-evidence bonus,verification,1429,1333,93.282
+sce_wo_execution,SCE w/o execution feedback,compositional,1605,1495,93.146
+sce_wo_execution,SCE w/o execution feedback,multihop,1035,863,83.382
+sce_wo_execution,SCE w/o execution feedback,multihop_compositional,2513,2232,88.818
+sce_wo_execution,SCE w/o execution feedback,qualifier_or_evidence,2575,2084,80.932
+sce_wo_execution,SCE w/o execution feedback,simple_or_attribute,2540,2388,94.016
+sce_wo_execution,SCE w/o execution feedback,verification,1429,1270,88.873
+sce_wo_nonempty,SCE w/o non-empty constraint,compositional,1605,1541,96.012
+sce_wo_nonempty,SCE w/o non-empty constraint,multihop,1035,937,90.531
+sce_wo_nonempty,SCE w/o non-empty constraint,multihop_compositional,2513,2325,92.519
+sce_wo_nonempty,SCE w/o non-empty constraint,qualifier_or_evidence,2575,2192,85.126
+sce_wo_nonempty,SCE w/o non-empty constraint,simple_or_attribute,2540,2444,96.220
+sce_wo_nonempty,SCE w/o non-empty constraint,verification,1429,1333,93.282
+sce_wo_relevance,SCE w/o question relevance,compositional,1605,1558,97.072
+sce_wo_relevance,SCE w/o question relevance,multihop,1035,948,91.594
+sce_wo_relevance,SCE w/o question relevance,multihop_compositional,2513,2352,93.593
+sce_wo_relevance,SCE w/o question relevance,qualifier_or_evidence,2575,2308,89.631
+sce_wo_relevance,SCE w/o question relevance,simple_or_attribute,2540,2459,96.811
+sce_wo_relevance,SCE w/o question relevance,verification,1429,1339,93.702
+sce_wo_schema,SCE w/o Schema,compositional,1605,1536,95.701
+sce_wo_schema,SCE w/o Schema,multihop,1035,917,88.599
+sce_wo_schema,SCE w/o Schema,multihop_compositional,2513,2321,92.360
+sce_wo_schema,SCE w/o Schema,qualifier_or_evidence,2575,2302,89.398
+sce_wo_schema,SCE w/o Schema,simple_or_attribute,2540,2428,95.591
+sce_wo_schema,SCE w/o Schema,verification,1429,1333,93.282
+schema_only,BART top-5 + Schema,compositional,1605,1531,95.389
+schema_only,BART top-5 + Schema,multihop,1035,890,85.990
+schema_only,BART top-5 + Schema,multihop_compositional,2513,2280,90.728
+schema_only,BART top-5 + Schema,qualifier_or_evidence,2575,2136,82.951
+schema_only,BART top-5 + Schema,simple_or_attribute,2540,2376,93.543
+schema_only,BART top-5 + Schema,verification,1429,1292,90.413

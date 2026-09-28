@@ -1,0 +1,5 @@
+﻿setting,rows,accuracy,avg_gold_recall,interpretation
+Full,100,87.00%,87.89%,Independent natural phrasing
+w/o KAG fallback,100,69.00%,69.00%,KAG fallback matters on natural questions
+w/o embedding,100,87.00%,87.89%,This natural set does not isolate embedding contribution
+w/o generic relation,100,18.00%,18.89%,Generic relation fallback is critical

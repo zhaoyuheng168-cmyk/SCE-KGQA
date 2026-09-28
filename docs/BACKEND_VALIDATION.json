@@ -1,0 +1,56 @@
+{
+  "neo4j_version": "5.26.0",
+  "graph_restored": true,
+  "questions": [
+    {
+      "question": "甘肃银行提供哪些金融产品？",
+      "returncode": 0,
+      "stdout_bytes": 5739,
+      "stderr_bytes": 0,
+      "answer_items": [
+        "创业担保贷",
+        "商户贷",
+        "小微e贷",
+        "惠知贷",
+        "支种贷",
+        "政采贷",
+        "新市民贷",
+        "甘农贷",
+        "科技增信贷",
+        "科技贷",
+        "税e融"
+      ],
+      "supported_answer_check": true,
+      "observation": "Real graph/evidence execution"
+    },
+    {
+      "question": "兰州市有哪些企业？",
+      "returncode": 0,
+      "stdout_bytes": 870,
+      "stderr_bytes": 0,
+      "answer_items": [],
+      "supported_answer_check": null,
+      "observation": "Unsupported phrasing refused in limited no-model configuration"
+    },
+    {
+      "question": "科技e贷服务的轨道交通装备领域企业有哪些？",
+      "returncode": 0,
+      "stdout_bytes": 1491,
+      "stderr_bytes": 0,
+      "answer_items": [
+        "天水铁路信号配件厂有限责任公司"
+      ],
+      "supported_answer_check": true,
+      "observation": "Real graph/evidence execution"
+    }
+  ],
+  "embedding_tested": false,
+  "online_llm_tested": false,
+  "separate_database": true,
+  "nodes": 1707,
+  "relationships": 31018,
+  "limited_smoke_passed": true,
+  "audit_server_stopped": true,
+  "execution_smoke_passed": true,
+  "all_features_validated": false
+}

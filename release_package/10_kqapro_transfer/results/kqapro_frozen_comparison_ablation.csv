@@ -1,0 +1,10 @@
+﻿variant,label,questions,correct,exact_match_pct,executable_pct,nonempty_pct,candidate_policy
+bart_top1,BART top-1,11697,10584,90.485,94.127,92.400,same_frozen_top5
+schema_only,BART top-5 + Schema,11697,10505,89.809,93.708,91.878,same_frozen_top5
+execution_only,BART top-5 + execution feedback,11697,10972,93.802,97.093,96.067,same_frozen_top5
+sce_full,SCE full,11697,10904,93.220,97.093,96.067,same_frozen_top5
+sce_wo_schema,SCE w/o Schema,11697,10837,92.648,97.093,96.067,same_frozen_top5
+sce_wo_execution,SCE w/o execution feedback,11697,10332,88.330,92.964,90.861,same_frozen_top5
+sce_wo_nonempty,SCE w/o non-empty constraint,11697,10772,92.092,97.093,94.845,same_frozen_top5
+sce_wo_relevance,SCE w/o question relevance,11697,10964,93.733,97.093,96.067,same_frozen_top5
+sce_wo_evidence,SCE w/o fact-evidence bonus,11697,10891,93.109,97.093,96.067,same_frozen_top5

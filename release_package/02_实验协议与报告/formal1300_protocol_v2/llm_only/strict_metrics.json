@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.1076923076923077,
+  "precision": 0.1076923076923077,
+  "recall": 0.1076923076923077,
+  "f1": 0.1076923076923077,
+  "refusal_accuracy": 1.0,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8433734939759037,
+      "precision": 0.8433734939759037,
+      "recall": 0.8433734939759037,
+      "f1": 0.8433734939759037
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  }
+}

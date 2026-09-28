@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.8823076923076923,
+  "precision": 0.7590997191775092,
+  "recall": 0.9059889590534113,
+  "f1": 0.7904553487982409,
+  "refusal_accuracy": 0.9928571428571429,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.9370629370629371,
+      "precision": 0.8668872696844724,
+      "recall": 0.9431818181818182,
+      "f1": 0.8859969751610619
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.9294117647058824,
+      "precision": 0.8798348813209493,
+      "recall": 0.9397058823529412,
+      "f1": 0.8958658459449867
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.95,
+      "precision": 0.7295571789321789,
+      "recall": 0.95,
+      "f1": 0.7851481645289697
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6239992395850306,
+      "recall": 0.6842105263157895,
+      "f1": 0.6323705360403215
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.9364406779661016,
+      "precision": 0.9541066508423048,
+      "recall": 0.9661460170680999,
+      "f1": 0.9429778918667017
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.7222222222222222,
+      "precision": 0.3431036721563038,
+      "recall": 0.9434171075837742,
+      "f1": 0.4998721823150516
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8373493975903614,
+      "precision": 0.8373493975903614,
+      "recall": 0.8373493975903614,
+      "f1": 0.8373493975903614
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.896,
+      "precision": 0.5912725274725276,
+      "recall": 0.896,
+      "f1": 0.6450984126984127
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.9337016574585635,
+      "precision": 0.7251721684245402,
+      "recall": 0.9343516412089699,
+      "f1": 0.772725199861488
+    }
+  }
+}

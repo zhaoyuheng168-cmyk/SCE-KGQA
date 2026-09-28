@@ -1,0 +1,6 @@
+torch>=2.1
+transformers>=4.40,<5
+huggingface-hub>=0.34,<1
+safetensors>=0.4
+sentencepiece>=0.2
+tqdm>=4.66

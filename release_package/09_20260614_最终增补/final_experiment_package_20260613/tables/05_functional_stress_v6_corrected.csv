@@ -1,0 +1,6 @@
+﻿setting,overall,embedding,evidence,profile,multi_hop,refusal,note
+SCE-KGQA full,83.00%,100.00%,100.00%,73.33%,55.00%,100.00%,valid V6 pressure test
+BM25-RAG fixed,58.00%,100.00%,80.00%,60.00%,15.00%,0.00%,fixed valid BM25; replaces invalid bm25_graph_text=0
+Text-RAG embedding,43.00%,100.00%,40.00%,0.00%,10.00%,100.00%,text embedding baseline
+w/o embedding suite,57.00%,0.00%,86.67%,76.67%,55.00%,100.00%,targeted ablation
+w/o scope gate,83.00%,100.00%,100.00%,73.33%,55.00%,100.00%,diagnostic only; other refusal paths remain

@@ -1,0 +1,6 @@
+﻿error_type,count,share_pct
+execution_error,340,42.875
+program_argument_error,210,26.482
+empty_execution_result,120,15.132
+program_structure_error,117,14.754
+relation_direction_error,6,0.757

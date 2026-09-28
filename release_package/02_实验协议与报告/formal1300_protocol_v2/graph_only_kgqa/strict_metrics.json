@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.43615384615384617,
+  "precision": 0.32365704695333813,
+  "recall": 0.4783778966400963,
+  "f1": 0.32751415076824447,
+  "refusal_accuracy": 0.9857142857142858,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.8951048951048951,
+      "precision": 0.3277685469238112,
+      "recall": 0.9027639027639026,
+      "f1": 0.4352130774702682
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.5764705882352941,
+      "precision": 0.4155164728430071,
+      "recall": 0.5911111111111111,
+      "f1": 0.4362314841867292
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.5125,
+      "precision": 0.17941208580720966,
+      "recall": 0.5235119047619048,
+      "f1": 0.22977139366798963
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.6491228070175439,
+      "precision": 0.5153508771929822,
+      "recall": 0.7635233918128657,
+      "f1": 0.556292795051376
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.0,
+      "precision": 0.1675847457627119,
+      "recall": 0.04412773331298739,
+      "f1": 0.04675994633027669
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.0,
+      "precision": 0.07424908424908425,
+      "recall": 0.21565255731922403,
+      "f1": 0.10985706644710476
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8313253012048193,
+      "precision": 0.8313253012048193,
+      "recall": 0.8313253012048193,
+      "f1": 0.8313253012048193
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.736,
+      "precision": 0.3980439560439561,
+      "recall": 0.736,
+      "f1": 0.4540933057280882
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.022099447513812154,
+      "precision": 0.0945884686216178,
+      "recall": 0.06588473173080621,
+      "f1": 0.05849890393186136
+    }
+  }
+}

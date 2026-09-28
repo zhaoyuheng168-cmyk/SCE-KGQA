@@ -1,0 +1,6 @@
+﻿item,status,reason
+functional_stress_v4/v5,do not use in paper,question generation and route targeting were not clean enough
+bm25_graph_text=0.00% in V6 combined_summary,invalid,wrong script path; replaced by BM25-RAG fixed 58.00%
+without_kag_evidence smoke,smoke only,only 3 questions
+final_ablation_1300_kag_evidence_planner_20260613,diagnostic only,"ran 1800 rows, not formal 1300口径"
+GrailQA,read-only audit only,no formal transfer benchmark was run

@@ -1,0 +1,110 @@
+{
+  "online_api_called": false,
+  "new_transfer_experiments": false,
+  "torch": "2.6.0+cpu",
+  "transformers": "4.51.3",
+  "embedding_shape": [
+    2,
+    512
+  ],
+  "indexes": [
+    {
+      "name": "entity_names",
+      "dimension": 512,
+      "items": 1675,
+      "search_ids": [
+        [
+          1547,
+          1527,
+          1540
+        ],
+        [
+          1516,
+          1532,
+          1518
+        ]
+      ],
+      "search_scores": [
+        [
+          0.6785836219787598,
+          0.6773381233215332,
+          0.6731162071228027
+        ],
+        [
+          0.6933363676071167,
+          0.6790381669998169,
+          0.6507243514060974
+        ]
+      ]
+    },
+    {
+      "name": "evidence_chunks",
+      "dimension": 512,
+      "items": 11873,
+      "search_ids": [
+        [
+          11656,
+          6227,
+          9485
+        ],
+        [
+          2339,
+          11854,
+          6396
+        ]
+      ],
+      "search_scores": [
+        [
+          0.7230008244514465,
+          0.7217284440994263,
+          0.7195684909820557
+        ],
+        [
+          0.7631047964096069,
+          0.741856038570404,
+          0.7403227090835571
+        ]
+      ]
+    },
+    {
+      "name": "relation_schema",
+      "dimension": 512,
+      "items": 17,
+      "search_ids": [
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "search_scores": [
+        [
+          0.6037251949310303,
+          0.5999904870986938,
+          0.585220992565155
+        ],
+        [
+          0.47824954986572266,
+          0.47287458181381226,
+          0.46104928851127625
+        ]
+      ]
+    }
+  ],
+  "kopl_parser": {
+    "loaded": true,
+    "forward_shape": [
+      1,
+      1,
+      50265
+    ],
+    "parameters": 139420416,
+    "experiment_scope": "load/forward only; no new migration experiment"
+  },
+  "passed": true
+}

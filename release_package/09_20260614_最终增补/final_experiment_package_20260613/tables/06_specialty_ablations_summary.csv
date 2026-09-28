@@ -1,0 +1,13 @@
+﻿experiment,setting,accuracy,note
+embedding_focused_120_official_v2,Full,81.67%,official embedding-focused subset
+embedding_focused_120_official_v2,w/o embedding enhancement,58.33%,large drop
+embedding_focused_120_official_v2,w/o entity embedding,67.50%,entity grounding main contributor
+embedding_focused_120_official_v2,w/o relation embedding,75.00%,relation embedding contributes
+embedding_focused_120_official_v2,w/o answer rerank,80.83%,small effect
+embedding_focused_120_official_v2,w/o evidence-aware retrieval,80.83%,small effect on this subset
+schema_router_targeted100,Full / w/o router,77.00% / 71.00%,moderate schema-router contribution
+llm_assisted_decision_required100,Full / w/o LLM decision,77.00% / 68.00%,LLM assisted decision helps hard routes
+llm_assisted_decision_combined100,Full / w/o LLM decision,67.00% / 57.00%,helps combined hard set
+llm_decision_hard100,Full / w/o LLM decision,70.00% / 61.00%,helps hard decisions
+weak_intent_direction_pressure100,Full / w/o LLM decision,82.00% / 76.00%,helps weak intent and direction
+evidence-aware retrieval 1300,Full / w/o evidence-aware retrieval,92.31% / 92.46%,basically unchanged; evidence mainly supports grounding/traceability

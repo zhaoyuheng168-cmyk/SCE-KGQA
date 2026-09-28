@@ -1,0 +1,9 @@
+﻿module,target_qtype,n,full,without_module,drop
+Embedding,entity_normalization_robustness,160,93.75%,60.62%,33.13 pp
+Embedding,closed_set_direct_graph,143,97.90%,82.52%,15.38 pp
+Rule reasoning,rule_reasoning,197,92.39%,15.74%,76.65 pp
+Open relation,open_generic_relation,129,84.50%,0.78%,83.72 pp
+Multihop reasoning,explicit_multihop_graph,249,96.39%,79.92%,16.47 pp
+Reverse relation,reverse_relation_query,138,84.78%,22.46%,62.32 pp
+Reverse relation,direction_confusion,5,100.00%,0.00%,100.00 pp
+Refusal gate,refusal_boundary,170,99.41%,2.35% / strict rerun 0.00%,about 97 pp

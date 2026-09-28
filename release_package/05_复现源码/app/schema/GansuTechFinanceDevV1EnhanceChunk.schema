@@ -1,0 +1,419 @@
+namespace GansuTechFinanceDevV1EnhanceChunk
+
+Policy(政策): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        issuingAgencyName(发布机构名称): Text
+        policyId(政策ID): Text
+            index: Text
+        policyType(政策类型): Text
+        publishDate(发布日期): Text
+        regionId(所属区域ID): Text
+        sourceUrl(来源链接): Text
+        theme(主题): Text
+        remark(备注): Text
+    relations:
+        supports(支持): FinancialProduct
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        targetsEnterprise(面向企业): Enterprise
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        targetsIndustrySegment(面向产业细分): IndustrySegment
+            rule: [[
+                Define (s:Policy)-[p:targetsIndustrySegment]->(o:IndustrySegment) {
+                    Structure {
+                        (s)-[:targetsEnterprise]->(e:Enterprise)-[:belongsToIndustry]->(o)
+                    }
+                    Constraint {
+                    }
+                }
+            ]]
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+ServicePlatform(服务平台): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        operator(运营方): Text
+        platformId(平台ID): Text
+            index: Text
+        platformType(平台类型): Text
+        regionId(所属区域ID): Text
+        sourceUrl(来源链接): Text
+        remark(备注): Text
+    relations:
+        connects(连接企业): Enterprise
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        matchesFinancing(匹配融资): FinancialInstitution
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+IndustrySegment(产业细分): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        industryId(产业ID): Text
+            index: Text
+        industryType(产业类型): Text
+        parentIndustryId(上级产业ID): Text
+        sourceUrl(来源链接): Text
+        remark(备注): Text
+
+LoanEvent(放贷事件): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        amount(金额): Text
+        eventDate(事件日期): Text
+        loanEventId(放贷事件ID): Text
+            index: Text
+        sourceUrl(来源链接): Text
+        loanType(贷款类型): Text
+        currency(币种): Text
+        remark(备注): Text
+    relations:
+        loanToEnterprise(向企业放贷): Enterprise
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+SubsidyEvent(补贴事件): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        amount(金额): Text
+        eventDate(事件日期): Text
+        sourceUrl(来源链接): Text
+        subsidyEventId(补贴事件ID): Text
+            index: Text
+        subsidyType(补贴类型): Text
+        currency(币种): Text
+        remark(备注): Text
+    relations:
+        benefitsEnterprise(惠及企业): Enterprise
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+FinancialInstitution(金融机构): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        institutionId(机构ID): Text
+            index: Text
+        institutionType(机构类型): Text
+        regionId(所属区域ID): Text
+        sourceUrl(来源链接): Text
+        techFinanceFlag(科技金融标识): Text
+        remark(备注): Text
+    relations:
+        issuesLoan(发放贷款): LoanEvent
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        providesProduct(提供产品): FinancialProduct
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+FinancialProduct(金融产品): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        productId(产品ID): Text
+            index: Text
+        productType(产品类型): Text
+        providerName(提供方名称): Text
+        sourceUrl(来源链接): Text
+        targetGroup(目标群体): Text
+        remark(备注): Text
+    relations:
+        servesEnterprise(服务企业): Enterprise
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+GovernmentAgency(政府部门): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        agencyId(部门ID): Text
+            index: Text
+        agencyType(部门类型): Text
+        level(层级): Text
+        regionId(所属区域ID): Text
+        sourceUrl(来源链接): Text
+        remark(备注): Text
+    relations:
+        grantsSubsidy(发放补贴): SubsidyEvent
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        issues(发布): Policy
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+QualificationCreditFeature(资质信用特征): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        featureId(特征ID): Text
+            index: Text
+        featureType(特征类型): Text
+        issuer(认定机构): Text
+        level(等级): Text
+        sourceUrl(来源链接): Text
+        remark(备注): Text
+
+Enterprise(企业): EntityType
+    properties:
+        creditCode(统一社会信用代码): Text
+        description(描述): Text
+        enterpriseId(企业ID): Text
+            index: Text
+        enterpriseType(企业类型): Text
+        industry(行业): Text
+        name(名称): Text
+            index: Text
+        regionId(所属区域ID): Text
+        sourceUrl(来源链接): Text
+        officialVerifyUrl(官方核验链接): Text
+        verifyLevel(核验级别): Text
+        verifyNote(核验说明): Text
+        remark(备注): Text
+    relations:
+        belongsToIndustry(属于产业细分): IndustrySegment
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        hasFeature(具有特征): QualificationCreditFeature
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+        locatedIn(位于): Region
+            properties:
+                sourceUrl(边来源链接): Text
+                creditLevel(边证据等级): Text
+                evidenceRule(边证据规则): Text
+                isExpanded(是否扩展): Text
+                remark(边备注): Text
+                secondarySourceUrl(边第二来源链接): Text
+                relationLayer(边关系层): Text
+                relationType(边关系类型): Text
+                sourceLabel(边起点标签): Text
+                targetLabel(边终点标签): Text
+
+Region(区域): EntityType
+    properties:
+        description(描述): Text
+        name(名称): Text
+            index: Text
+        parentRegionId(上级区域ID): Text
+        regionId(区域ID): Text
+            index: Text
+        regionType(区域类型): Text
+        sourceUrl(来源链接): Text
+        remark(备注): Text

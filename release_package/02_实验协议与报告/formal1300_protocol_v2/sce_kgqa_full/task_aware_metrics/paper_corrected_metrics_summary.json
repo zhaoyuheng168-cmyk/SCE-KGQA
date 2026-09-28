@@ -1,0 +1,12 @@
+{
+  "source": "experiments/baselines/datasets/gtf_kgqa_1300_formal_expanded_gold.csv",
+  "result": "experiments/baselines/reports/formal1300_protocol_v2/sce_kgqa_full/task_aware_input.csv",
+  "total": 1300,
+  "old_passed": 1147,
+  "old_accuracy": 0.8823076923076923,
+  "paper_corrected_passed": 1199,
+  "paper_corrected_accuracy": 0.9223076923076923,
+  "non_refusal_macro_precision": 0.7577122867372296,
+  "non_refusal_macro_recall": 0.9247791748010656,
+  "non_refusal_macro_f1": 0.8515044023873088
+}

@@ -1,0 +1,73 @@
+{
+  "total": 1300,
+  "accuracy": 0.5261538461538462,
+  "precision": 0.604861362077315,
+  "recall": 0.6114362361777093,
+  "f1": 0.5630083811720116,
+  "refusal_accuracy": 1.0,
+  "by_category": {
+    "closed_set_direct_graph": {
+      "total": 143,
+      "accuracy": 0.9440559440559441,
+      "precision": 0.8979785075064792,
+      "recall": 0.9697802197802199,
+      "f1": 0.9144560383794834
+    },
+    "closed_target_generic_relation": {
+      "total": 85,
+      "accuracy": 0.6941176470588235,
+      "precision": 0.712156862745098,
+      "recall": 0.7090909090909091,
+      "f1": 0.7062361786819992
+    },
+    "entity_normalization_robustness": {
+      "total": 160,
+      "accuracy": 0.9,
+      "precision": 0.7724954595213215,
+      "recall": 0.9146577380952381,
+      "f1": 0.8027217553688144
+    },
+    "event_evidence_graph_qa": {
+      "total": 114,
+      "accuracy": 0.7807017543859649,
+      "precision": 0.7482456140350877,
+      "recall": 0.8413742690058479,
+      "f1": 0.7685856870916293
+    },
+    "explicit_multihop_graph": {
+      "total": 236,
+      "accuracy": 0.08898305084745763,
+      "precision": 0.7141566982647933,
+      "recall": 0.33314874496617847,
+      "f1": 0.39178654984582983
+    },
+    "open_generic_relation": {
+      "total": 90,
+      "accuracy": 0.0,
+      "precision": 0.20811323938645906,
+      "recall": 0.42623015873015857,
+      "f1": 0.2781012281833371
+    },
+    "refusal_boundary": {
+      "total": 166,
+      "accuracy": 0.8433734939759037,
+      "precision": 0.8433734939759037,
+      "recall": 0.8433734939759037,
+      "f1": 0.8433734939759037
+    },
+    "reverse_relation_qa": {
+      "total": 125,
+      "accuracy": 0.752,
+      "precision": 0.47172813852813866,
+      "recall": 0.752,
+      "f1": 0.5221471861471858
+    },
+    "rule_reasoning": {
+      "total": 181,
+      "accuracy": 0.011049723756906077,
+      "precision": 0.01237042883451723,
+      "recall": 0.014751853425886575,
+      "f1": 0.012708414869665922
+    }
+  }
+}

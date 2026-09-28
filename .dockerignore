@@ -1,0 +1,9 @@
+.git
+.env
+**/.env
+**/kag_config.yaml
+runtime_data
+**/__pycache__
+**/*.pyc
+**/raw_docs*
+**/raw_txt

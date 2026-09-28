@@ -1,0 +1,5 @@
+﻿configuration,entity_linking,start_revisit_constraint,exact,accuracy,macro_f1
+Full unified Core,Exact typed,Enabled,38553,98.619%,99.511%
+No revisit constraint,Exact typed,Disabled,31878,81.544%,97.360%
+Fuzzy linking,Fuzzy typed,Enabled,24050,61.520%,82.303%
+No both,Fuzzy typed,Disabled,21031,53.797%,80.570%

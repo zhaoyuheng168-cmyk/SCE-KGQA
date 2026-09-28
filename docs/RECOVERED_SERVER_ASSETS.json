@@ -1,0 +1,1220 @@
+[
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/run_dataset_demo.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/run_dataset_demo.py",
+    "sha256": "7cccb28c4529eeca9a88d7800c095abe7b925110d9fd9c5232663aa0b5bbb60f"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/inspect_dataset.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/inspect_dataset.py",
+    "sha256": "ef0367a4867f4d34fa7c3bb2380a505be2223be80d0794a46fafcc84b509ce20"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/tests/__init__.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/tests/__init__.py",
+    "sha256": "3bd093d41d85f9c541f1e953d04a0225b82471f7e3be59aab5ea9abece208838"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/tests/test_framework_boundary.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/tests/test_framework_boundary.py",
+    "sha256": "5280a0757e32cd6e5783aba1b0b9283ecb1f41681caa4ffcade4c18447770e4c"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/validation.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/validation.py",
+    "sha256": "e258a5e2d7d1fd409fbd8cb581ba53e8160abb4a899125e124c7152db9590e6a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/convert_metaqa_qa.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/convert_metaqa_qa.py",
+    "sha256": "2d80f280405f038ddb996bb88ac6279b4415021d4f1b64da6a3291a14fa35530"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/graph.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/graph.py",
+    "sha256": "29af104b24d370a3c3f34dc1d3cf0fa253b2e5dac3b753864342a3dfd7fd417c"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/__init__.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/__init__.py",
+    "sha256": "4f2f095036224b77fb33360724de1617e06233e333c79fbea77fdffb6e5aa5e6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/datasets.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/datasets.py",
+    "sha256": "dedb075265117192267809c8514d5c3dca5f405b6b1a7d9a06ce4261d22fdf20"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/adapters/gansu_finance.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/adapters/gansu_finance.py",
+    "sha256": "ddfb5187c39946195f29f85a1a731b2cc96573c6dc6ef1c11cd0151994c1f25e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/adapters/registry.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/adapters/registry.py",
+    "sha256": "39cf8667368e06475d05e765e74a95d8deb0a8dab6563a5ea35cfb2df1b9f147"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/adapters/metaqa.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/adapters/metaqa.py",
+    "sha256": "b7a8bef44b5f7c957c3f9a277f439128d0cf45c18c775521f80d2f5d8b524ca5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/adapters/__init__.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/adapters/__init__.py",
+    "sha256": "dde7cc3e633bd986fe54300db86529c526bd5989ca07d746a52c7f35c23415e6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/adapters/metaqa_real.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/adapters/metaqa_real.py",
+    "sha256": "b9ab31ff48a0435b2c93423b7ad6fa226a1e1b3934a1fa9bd215c52f059e23b2"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/evaluate_dataset.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/evaluate_dataset.py",
+    "sha256": "9442edf2e61e0cb4c74277c2382cd5b0e3943be5ca7245efc42891c361f89054"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/demo.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/demo.py",
+    "sha256": "37b166cb8066a12d1b7eb0aa21e6c9c430d0cb2218d010b9d66b996c7cfe280b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "tools/generic_kgqa_framework/core.py",
+    "release_path": "release_package/05_复现源码/tools/generic_kgqa_framework/core.py",
+    "sha256": "c5768ae925c51bd1f4070e2a991fafaceceae07c7ee6d2dc3324bbad3b672458"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "blind_tests/blind1200_v3/eval_tools/evaluate_paper_corrected_metrics.py",
+    "release_path": "release_package/05_复现源码/blind_tests/blind1200_v3/eval_tools/evaluate_paper_corrected_metrics.py",
+    "sha256": "06d2e4d0d80dc1a991f2ec65b610a15f069aab0c63d50194dc3d2506fed771d5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/by_qtype.csv",
+    "sha256": "b70aec65af1ade3280ff3ad7ae2b955a12df539166ab769b3fff81ea03f0a273"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/manifest.json",
+    "sha256": "2d3cf7ee532c02ea521c342ffdb55ed2583193b890dcc651c39bd1dea83e6dab"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/summary.json",
+    "sha256": "e121d5de5ce438513c7cbe3d197c30528fcd66c01393e607c071c576f60556d8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_4/results.jsonl",
+    "sha256": "30be9195dd6fefc5769905343d73a74b69731f69e9bd46526a313f1bcb1a7041"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/by_qtype.csv",
+    "sha256": "9fd7b72f988907031203a65143d83eba21b1dd5446c5cd6dbbf4f703d8363053"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/manifest.json",
+    "sha256": "2fe7d276068e444d5e71be7adf8d56e463dfaf5810f86c65fad14a53988508b8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/summary.json",
+    "sha256": "5dc4a3d152eed60c9fd1fac2d48dcba28d56b0592b40684eb1a4da3d24ddcd95"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_10_per_qtype/results.jsonl",
+    "sha256": "2028f564c9693fac3a9f7dacf11ce04ca6613c7f86ce5a67e35d551b9a151031"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/by_qtype.csv",
+    "sha256": "4779b10a48c9839eff4f600329209c4d1d985ea83b55bde6102aa2f8a6e4c44e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/manifest.json",
+    "sha256": "f26d6af721f3a55a9d3c95eb65a8940293e2ba9642e4433f1e7a4f081da0ecd9"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/summary.json",
+    "sha256": "232af59a0133f3d0081d80f50c4c0a6f0b4c1a9e7774b1d40afbf7cca89b7bd5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_formal_20pct/results.jsonl",
+    "sha256": "c8e60fb24694d7bfbd54b36031a2e552bdb6671cfaa9fabdff34674816ef235b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/by_qtype.csv",
+    "sha256": "1f1170b9c61939d7d8b4799de2e8468eaac6baea82a2bab27a8ac6eb8255b45e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/manifest.json",
+    "sha256": "96acdc57a2d805bba773f409d82aa4f6278636ac6cb764b4407c6e74718e8dae"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/summary.json",
+    "sha256": "e9b4143e8f1c6c36e5caeb794bd1997d5783ee87719ee2754c917ead4bb568d3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_3/results.jsonl",
+    "sha256": "b57804d897ff0424eff1ecfe129028739aa0e1042b41a51457be02c581e70f9c"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/by_qtype.csv",
+    "sha256": "40aa37e6fcfd89db27f3fb3f7c8413b343b38e599cf030752970357a18be8d86"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/manifest.json",
+    "sha256": "50ba25ae7474660fc671ea856c064706724aed52911279917ef2edb03b71857e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/summary.json",
+    "sha256": "fe8e6328ae669c2597c3fb95f3669090e1ab9ed2a2106cfd9a76d61a335cc3b5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_1/results.jsonl",
+    "sha256": "b938babef5624f5c1369983895720fce8dac71f93c57f996803611e784539785"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/by_qtype.csv",
+    "sha256": "9d9251af0fd357303df4015f073ddce7816c96fc0537491782fffe450eec7f7d"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/manifest.json",
+    "sha256": "4f1678200da264935bdc6487c99ae4fa7c98e1b6e1206d4f861ef308d17fc2eb"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/summary.json",
+    "sha256": "146676d426a6058ad5968b9eca3a9ef46f96a79ef59166160607cb5f1751d575"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_2/results.jsonl",
+    "sha256": "912195aec37c2e9971a3978a4154efada97b077dbad432d8b986af7b7f38c94a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/by_qtype.csv",
+    "sha256": "275c136c7abab487a535466bc28b6e448afd09ec6a1b5654f798b006ce4a78d7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/manifest.json",
+    "sha256": "43d965d7792a8ca87a770604fc59893426db821bc220249b3d341cad4d9d96eb"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/summary.json",
+    "sha256": "0f9ed8faa47bb1310d9c998eaacff5d25c3fe8b0840556f55808df48de61fa9c"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_formal_test_template_unit/results.jsonl",
+    "sha256": "b46728fae47b86a8ebea9f6e9666ec426ffd8cf16120071b0172df388dad5542"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/by_qtype.csv",
+    "sha256": "be1e277f50242f8eab41deb69ebdc2dd879bc0c680588824d9f514c3c2b322dd"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/manifest.json",
+    "sha256": "02540dc2da390e3187d7856802e8ef0572c41ff3a2ddc06ff63b6f8dc9db8216"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/summary.json",
+    "sha256": "0b55607f14500203a1adcaddc364689cdeb6b797a38e331ca8a8064cc33025e8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full_self_answer_policy/results.jsonl",
+    "sha256": "461887c9b346bb149f04dac063daaa445cc97f344922ae57ad124800d16e69a1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full/by_qtype.csv",
+    "sha256": "38c6ecae6cf18e7049f264365fe1260d3a111c23ed9e8c33a7184edde1883958"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full/manifest.json",
+    "sha256": "3e8d0015567da3a403d3d6077b9e4ccb3d26100c44a5fc4adda7b2e6d930dc6a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full/summary.json",
+    "sha256": "45547d98f0c55d895508dcaee368f9e05e0fcca23e2b0a7a5050f23b2fa3592b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_full/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_full/results.jsonl",
+    "sha256": "4f6ea9a03c6b6d60745e12977a3bf89e723b950cb8187296c8b111a75c8459dc"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/by_qtype.csv",
+    "sha256": "9f78075e49db083ca84bdc779b9070a298907c660e6a0c3744c7ce656d353209"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/manifest.json",
+    "sha256": "bdfa9d1985718d47b99a06d2341e6e33b302d6a37e3ec4ca2fcfd5202c9c59b8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/summary.json",
+    "sha256": "b0fc30b0709ef7faeb67632020216af67284336ed04d31441d57eba12ff064a6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/preflight_dev_full_100_per_hop/results.jsonl",
+    "sha256": "f0e69fb9543216ae85cedd085931d211cb07d4040d288d8eff446b761b2cb202"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_by_qtype.csv",
+    "sha256": "4a50659c0df19bff9ea75ae6694eb6c1a014bcbdc28bd9ceea9a4f86aae66f76"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_results.jsonl",
+    "sha256": "567687744c3b897547a1be118deaa36b49c02870c3c2a28a85d28a46001c0b3e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each_exact_typed/metaqa_real_adapter_coverage_report.md",
+    "sha256": "9c0aeb48ce6168b982322261cffa3684566ff6c4e0366f81f85f746869535ed2"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/by_qtype.csv",
+    "sha256": "250239d501904dc3dea2563fa8aac0e1e6b4595f7395ad535c80c4f6d14bff6a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/manifest.json",
+    "sha256": "563fba5df37dfdae813a0bc4babdde7f5eda35eed4597a573c50fb26698bb646"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/summary.json",
+    "sha256": "b58d1345abec20d30b20f1d2586d31efe4692364014201caf4f79c1faffdc693"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_fuzzy_linking/results.jsonl",
+    "sha256": "42ad993c2c86919bd3245027d36d5694c4bd6040260b1eb8e22f97c5ad0c72c4"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/by_qtype.csv",
+    "sha256": "ea57796b2b580489bdb5814bed267b6270c53dd6db7e52ead574e3e8e3ae61d3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/manifest.json",
+    "sha256": "c2c56ee50fefc4e15574af482810519b741f86d4b5577f09da72474c90f1350d"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/summary.json",
+    "sha256": "618d8f67c81d92f3c92b69a034f5e51fb68b92cf2125aa04a8cc9a2fc1a801d1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_smoke_0/results.jsonl",
+    "sha256": "1594be2c2013f43e8b6c41f6f367c44c2b5430186520c25887e513da8a6f5f29"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/by_qtype.csv",
+    "sha256": "9acbf528e4fefcd48f72aa10a3169897472dce8d8a6910891e8f823774a9d975"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/manifest.json",
+    "sha256": "18ae3398343cada4b19a2527129b427d564f326806d746725f6add29ff500a2b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/summary.json",
+    "sha256": "4be977590aa17a702310a7fe278e419909257c64e4c9d2c98aab6daf0d410bc2"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_smoke_20train_3eval/results.jsonl",
+    "sha256": "cd61371f08070e35e065bd8615c19ed5822c4d985a48e405eb458771dd1085cc"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_both/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_both/by_qtype.csv",
+    "sha256": "a9bb3003fc40ad6581376fcc1ae25f4cc52414b62ca59e4c63d798dd21c13453"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_both/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_both/manifest.json",
+    "sha256": "43760449b8ca128e898093c818f48b69138797050e001e383e2e69b627333a38"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_both/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_both/summary.json",
+    "sha256": "69293a0ec81ae5f1f37147af7d043e7049158516b44b3f4903f01e5dc0e355ef"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_both/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_both/results.jsonl",
+    "sha256": "1cdd71cea102bfe5bf16880c9df0e1ff67a4cad1bc7a85314c5ed1afc1b6c421"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/by_qtype.csv",
+    "sha256": "0b42782603e7add09f743c38bbf3dc56ef856beca9a82a60332827b9020324d7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/manifest.json",
+    "sha256": "d71e26e7e42e7f2056d32c1ca7c2926d6d4d18bee2333a9aa41c296c7de77154"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/summary.json",
+    "sha256": "d2bcbd3e5edc59b0896613911ee3153f055d2fdf230b7d54aa18e5f37634d272"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/template_holdout_5fold_template_unit_run_0/results.jsonl",
+    "sha256": "687436efad428c7890b020a5582f0defbba0684fdff98cb6d5de990060ad67f9"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_by_qtype.csv",
+    "sha256": "ec18c9148d0ba3fb95420b211144aefcfa8cb0e6bf98ddcf3d81ac3cb4f8f483"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_results.jsonl",
+    "sha256": "0f6738d2671ccf912f6f72b57fa3dca2f8910256074b65a2984a36d95f31161e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_real_adapter_coverage_report.md",
+    "sha256": "9e526d23d0d7b498098afd5b7241ecbb9a11d395012c7e6bd6941d7b6f48eae1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_coverage_failure_audit_details.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/coverage_smoke_49qtype_3each/metaqa_coverage_failure_audit_details.jsonl",
+    "sha256": "b09108493b0292adb8200acb03219024e455b3653ff1ee1f04bcfbe235d8d410"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/by_qtype.csv",
+    "sha256": "7875b8acd01d5076eff20c08912be53e55e36a1be258341e91d90421afd91b29"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/manifest.json",
+    "sha256": "3006a3163460aa30a2fd85f2361999c680b89df4d586a11838a901a1c4d7b5aa"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/summary.json",
+    "sha256": "459858fff9e29a53afb71f437ce10346373b6dc0f034361cf5ef86818ffb364d"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/predicted_route_dev_smoke_20train_3eval/results.jsonl",
+    "sha256": "b769c9963ab66aad66dab62c09ba4d056a90354ea13870617ab70adf35506747"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10/movie_to_actor_to_movie_to_director_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10/movie_to_actor_to_movie_to_director_10_results.jsonl",
+    "sha256": "01e8aca3f2b5e61d1d9bae57af8979623043a75e21c27797ecbb89373decf398"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10/movie_to_actor_to_movie_to_director_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10/movie_to_actor_to_movie_to_director_10_report.md",
+    "sha256": "8bd45dbf3927e2e2a3b11547a56c5cbcfe12c076dd2d6becfc2ce68f2f2fa207"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10_exclude_start_step2/movie_to_actor_to_movie_to_director_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10_exclude_start_step2/movie_to_actor_to_movie_to_director_10_results.jsonl",
+    "sha256": "242aa0184c82488962ade33121ee5f599ac7ee3a773407273c256c2c071fdb10"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10_exclude_start_step2/movie_to_actor_to_movie_to_director_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_director_10_exclude_start_step2/movie_to_actor_to_movie_to_director_10_report.md",
+    "sha256": "b2f9be958b574140099f508fde67288f33a3a6b535bd26c25d9d818a7ab6eeb3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/manifest.json",
+    "sha256": "70fecbde1600195e1cbe3c38dc56ab2a4018a26b6a95e7fc50f3a96442cf0538"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/metaqa_qtype_typed_paths.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/metaqa_qtype_typed_paths.json",
+    "sha256": "eab37d9486ed1257507254bedb0de5d49220645c049e52aeb46659b140275a30"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_off/movie_to_actor_to_movie_to_genre_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_off/movie_to_actor_to_movie_to_genre_10_results.jsonl",
+    "sha256": "501dd2c1509a86976b6da0e194dc8d1e5edf00ee3a7ac868132220b10b12cb25"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_off/movie_to_actor_to_movie_to_genre_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_off/movie_to_actor_to_movie_to_genre_10_report.md",
+    "sha256": "f3f2e459553c1f1ed83b2c398cb4b6d2bb1b6f678b75f0dca04e6cc6bfc64eb1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_train.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_train.jsonl",
+    "sha256": "17f815b29d60e88f8642fc08ff7390e025ed999d34abc743d182a2262c3e42ec"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_dev.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_dev.jsonl",
+    "sha256": "938a653ad7fb373df8a9b97332cb30890537a96d74343c323bb131142c2907a8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_dev.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_dev.jsonl",
+    "sha256": "dc11df425b26fb52c91754d0c3904e0eae48cb590cac5e016dea998fd41c667b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_train.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_train.jsonl",
+    "sha256": "ca95f86d64217527186223954b208e3bd3852c9583c7759cdc6fb054e3dc32ea"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_dev.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_dev.jsonl",
+    "sha256": "d2086d7815b2c2ec50e02c4ced2a22ac3b6d2a7876db62ab33ad4f6f18552ac0"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_test.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_2hop_test.jsonl",
+    "sha256": "23b632ab9bf77135c28d90241e86a044a927eb951b48c6e0b98c6a6748494409"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_test.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_test.jsonl",
+    "sha256": "4ba1a3dd896c58189c48ca6c7d66f23ab89b25cc9bd29cac4f9cc54abacbc5aa"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_train.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_3hop_train.jsonl",
+    "sha256": "ccb6286462a7dfc996cea4d4105acc3b1bd3890636412715302b10a7d264605f"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_test.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/qa/metaqa_1hop_test.jsonl",
+    "sha256": "a67451631f218645e4280769d3b8d4d25bbfe45443a1c5e7912a018d161e0bae"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/graph/metaqa_nodes.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/graph/metaqa_nodes.jsonl",
+    "sha256": "5eef4f2d226f5576a67eb2894613bed126e40bf73863a05ad6825b5fe6c5e3a3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/graph/metaqa_edges.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/graph/metaqa_edges.jsonl",
+    "sha256": "8da1056b09aa18ae32ea1a0dba8d28b07282ec72321c2e49d50dbc610d57cd8e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_on/movie_to_actor_to_movie_to_genre_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_on/movie_to_actor_to_movie_to_genre_10_results.jsonl",
+    "sha256": "45a0c6ca924183467fa3e84c572c064bc3140a054eab200893159b9fa03baad5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_on/movie_to_actor_to_movie_to_genre_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_movie_to_actor_to_movie_to_genre_10_constraint_on/movie_to_actor_to_movie_to_genre_10_report.md",
+    "sha256": "e269b9d975864e3e83b6214d4ede30c664f5c1c3cb1fe831554b10c723680521"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_actor_10/actor_to_movie_to_actor_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_actor_10/actor_to_movie_to_actor_10_results.jsonl",
+    "sha256": "89a34b7ddce72aab1d671c519d7bf77a0691ef3796695b3ebd83133c81ae2677"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_actor_10/actor_to_movie_to_actor_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_actor_10/actor_to_movie_to_actor_10_report.md",
+    "sha256": "936fc16264f4ce6c3d770597f13474fe6de980c95c3b438fcdc8f438b6e853aa"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_director_10/actor_to_movie_to_director_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_director_10/actor_to_movie_to_director_10_results.jsonl",
+    "sha256": "ea1c38158abef87db77cda016260de2f5d107b0a06a5cd12df741dc39baa9401"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_director_10/actor_to_movie_to_director_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_to_director_10/actor_to_movie_to_director_10_report.md",
+    "sha256": "573edaf64354239a1b38fd957885a6aa4886ed990316468aa951d1cb4da11a3d"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_10/actor_to_movie_10_results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_10/actor_to_movie_10_results.jsonl",
+    "sha256": "856b5c57f23f9b05401c74cddc49eb51fdf4449d337a1de213fc2bda288c9091"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_10/actor_to_movie_10_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/smoke/execution_actor_to_movie_10/actor_to_movie_10_report.md",
+    "sha256": "50f8d6a1159eac8220c79b2689763d4af474b1ea6a8d70e767d5a6db934c63c3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/by_qtype.csv",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/by_qtype.csv",
+    "sha256": "98fe89350f23de0cbc9e403338da7730bc7feacd9aa0b14158d9fa6bf429e9cc"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/manifest.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/manifest.json",
+    "sha256": "6ef15a53f2b281461333ece978b34bc5abb3fb88710d1b72c93500e2d1f6ad0f"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/summary.json",
+    "sha256": "ff1ea413ba00ede6b60425015c5d6d1721db06ec499a5d84bd772701895bea37"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/results.jsonl",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/processed/formal_test_no_revisit_constraint/results.jsonl",
+    "sha256": "812dd4db814ae4fc044ec1d2893ba4d677c41f1f94b07a443106d3605b8cf793"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_test.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_test.txt",
+    "sha256": "f4c2a801f864e80e809655a20b4b8c9904f4a2885a7f23850b2fabd8d38a6540"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_train.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_train.txt",
+    "sha256": "5760a90c36e242b5be1304dd80a46c4c3a84f3d35ffb083276096248af144f62"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_dev.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/vanilla/qa_dev.txt",
+    "sha256": "c638b99f97db93112f7a9ceec47675066cc9efc93b7ecd43e22c54ab531741d9"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_test_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_test_qtype.txt",
+    "sha256": "08dce72050b7d1e6271772b5d0066e2b14a00d6c64062a7d24d1f580e94f0e93"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_train_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_train_qtype.txt",
+    "sha256": "47c2a264e8f5380923a5ddec8539a44f01781636e2e2e8e039207197f62478fe"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_dev_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/3-hop/qa_dev_qtype.txt",
+    "sha256": "8734c5f528c81b39e459ded4ef4e99cf5e41e0d95c81ab90d3197ebcdd0bb687"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/kb.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/kb.txt",
+    "sha256": "9b4d3b3066266075ad1577b4beed68e6e112e76e1a29ed2cb00a2896d2b792af"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_test.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_test.txt",
+    "sha256": "c57e9c2c4c05e5eec4503460042c09bfa3e80ea1a5ecaf361c92dd81d6c7bece"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_train.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_train.txt",
+    "sha256": "bd2ab48b2672232785f7ed2983c892f41f2afe4f5ff4cb0e5f80e29e99b46d44"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_dev.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/vanilla/qa_dev.txt",
+    "sha256": "3c68fa73a14d9b9616e49f08e2d8b65e024af417708306874fe4d398634620d3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_test_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_test_qtype.txt",
+    "sha256": "6390ded9d7b7e56f95af96429b38e98ee14c5a617963dc69f396c8cc4f6ff64d"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_train_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_train_qtype.txt",
+    "sha256": "fd5a0b24c6d249b51990f56b170fe38b9052f90370fd3dde6f70b599999086ec"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_dev_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/1-hop/qa_dev_qtype.txt",
+    "sha256": "43c660806c1ba17ead85a34a60b39c8cd965db943a801355963974f9e122d3b8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_test.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_test.txt",
+    "sha256": "b1c4f1ad77f34a27e0e5a13c08b436c6f4c9a49dccd8d43639a569ee5cd906a1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_train.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_train.txt",
+    "sha256": "f141e24f4d04aac7b32a9c6820ca9806bb49cabb2ca213066b992ed4f1fafeae"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_dev.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/vanilla/qa_dev.txt",
+    "sha256": "a713ae6b4a7cdccfdda57ac99092f4114a1f8b0c4ba51b4466a15496a4ff6fbd"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_test_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_test_qtype.txt",
+    "sha256": "660b87183f3d21f3f64eaa5bcd12036124662e518a3958b5c47389a11e980210"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_train_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_train_qtype.txt",
+    "sha256": "f22308d7daa6c152530156aec8966a25e163263938a838e09d17861f643e2816"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_dev_qtype.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/dataset/MetaQA_clean/2-hop/qa_dev_qtype.txt",
+    "sha256": "e3936971b096954cfa965f5b8747fe4fa5b3b762f9fe63796d33df0f291ddfdd"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/MetaQA/README.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/MetaQA/README.md",
+    "sha256": "e34585b021a019cac481aa880ea6f094509fe754b7ab595feddaa0dd30f2f0d0"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/raw/MetaQA/LICENSE.txt",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/raw/MetaQA/LICENSE.txt",
+    "sha256": "0a9bd39b8e5d858cb705e54078223fca204ef417fd7bc903419dddf9b6b2c2ed"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_real_adapter_audit.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_real_adapter_audit.md",
+    "sha256": "adc97fcc211b8c4a4bfd6747a938c13f854397cee3b6af4f208b211abad6d145"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_path_revisit_constraint_cross_qtype_stability.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_path_revisit_constraint_cross_qtype_stability.md",
+    "sha256": "6bc4e0489cefaf1ed1d0c450c0516f8a147d951074feea67128c9d6521d70fb4"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_route_template_overlap_audit.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_route_template_overlap_audit.md",
+    "sha256": "9271a83fcec5c6334c9fdef668d2f2dd627c413846adf7a48a29f47426adeda7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_final_transfer_experiment_summary.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_final_transfer_experiment_summary.md",
+    "sha256": "a0b94b4a288d78d3f04eda7ba81122969474bbb30169738b5e86b9f979ce0fbe"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_core_promotion_evidence.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_core_promotion_evidence.md",
+    "sha256": "d0879c1bc918cd27cea3bb5015bd4020ba7abccfaa74876ca881e51f7e08ea0e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_summary.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_summary.md",
+    "sha256": "56c0963a9dc33e1e665d21324e3128a06a7b2cf9d4a342a456a209fc4f72abe7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_formal_template_holdout_predicted_route.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_formal_template_holdout_predicted_route.md",
+    "sha256": "ace88359ad19d51ea006da8d4bcd2b9fb4850fa3d35c56318848f9cd59169f95"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_formal_5fold_template_holdout_summary.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_formal_5fold_template_holdout_summary.md",
+    "sha256": "9f7481fad7c3fb90bc0e0599dad50364d08467bd141fb75890e756686bdf0121"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_start_revisit_constraint.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_start_revisit_constraint.md",
+    "sha256": "a00ce6934e7d5db3960f72638985f4b3c0ba96af1ecb323374d43bfb1424eeb6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_entity_linking_policy.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_formal_ablation_entity_linking_policy.md",
+    "sha256": "93d592e93018b8a5c3cafba1843ec4c5a56ef6f74d0a84d19c7bc64399cd8892"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_path_revisit_constraint_smoke.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_path_revisit_constraint_smoke.md",
+    "sha256": "763d9aa1b18718dc4b15cb41433771288d94c8103a3a6adfda94303bcd818252"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_coverage_failure_root_cause.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_coverage_failure_root_cause.md",
+    "sha256": "a0170eb122a11e36fcd8e8323ef5d6bff787ea2edb09331cc04e770feb88ed5e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_qtype_mapping_audit.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_qtype_mapping_audit.md",
+    "sha256": "1d8d2a1b943fe26e4d7ad1dfd0a48bc62016b3dc4b62c31101e35d0eb574d8d7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_coverage_failure_audit.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_coverage_failure_audit.md",
+    "sha256": "37b7e90e250b9ecb0b9e6ee442029e06388a31f7635f19c91635d11e905a95fa"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/reports/metaqa_raw_audit_report.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/reports/metaqa_raw_audit_report.md",
+    "sha256": "bd72287a5de6d41a6b08167776c058700eecb7660d9fdc2f4c42062838d368b3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/metaqa_schema_mapping.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/metaqa_schema_mapping.py",
+    "sha256": "9dfc355d66e99461376ef69a22f506ebc4ed15d1152cc5b3493eb55a1c48c866"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_template_holdout_evaluation.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_template_holdout_evaluation.py",
+    "sha256": "8f193c5347a3e2974f77101fa7d1cf3be1201da7f7865d202334ed41fb899c33"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/convert_metaqa_to_public_format.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/convert_metaqa_to_public_format.py",
+    "sha256": "43e2601e7e75f2529e6fce37044047b292c1c06e8a7d7a8fd05e1ebced4c7524"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_real_adapter_coverage_smoke.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_real_adapter_coverage_smoke.py",
+    "sha256": "c92aaa7210fab91c66b458884dc4518560c182324ded446c0e1473eb2e8a8d38"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_qtype_smoke.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_qtype_smoke.py",
+    "sha256": "d5b44852e9e0a635d472e1058c2b84a352c8e8a8e3a7eac6c0b0655e47b0a764"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/audit_metaqa_coverage_failures.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/audit_metaqa_coverage_failures.py",
+    "sha256": "c93024d77569ee5e86d8f36541d2e80fac5a5578be9bda6c70d527a4f0f127c8"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_predicted_route_evaluation.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_predicted_route_evaluation.py",
+    "sha256": "4c49b9d8afa10f05d5e990961d26d8bb49ed308ef6a976aa0dc9d076d4efe777"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/summarize_metaqa_core_promotions.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/summarize_metaqa_core_promotions.py",
+    "sha256": "a376c3265b4b383d4287a74844f02a5e2f3257d45fe3311cda29b6bed3415ca3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_formal_evaluation.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_formal_evaluation.py",
+    "sha256": "e84e08edfbf5dd2dda752bb0d77b55a7b122c2a11f109afc3cf74b14008a0cb7"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/run_metaqa_actor_to_movie_smoke.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/run_metaqa_actor_to_movie_smoke.py",
+    "sha256": "2c69dda4ad504e45dff1899c730942c643cfac7d2aebabae18515e846a0f4fd4"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/audit_metaqa_raw.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/audit_metaqa_raw.py",
+    "sha256": "a06c8ddfcd0bc170c4eec6afede452ad535344fe0ef2e24b5b5dbdbd31e3d535"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/audit_metaqa_qtype_mapping.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/audit_metaqa_qtype_mapping.py",
+    "sha256": "e7e66703ae27e02eae40401412daabce3f68a408392557104c85e30a5873211a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/scripts/audit_metaqa_real_adapter.py",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/scripts/audit_metaqa_real_adapter.py",
+    "sha256": "f2c0bd58681827a09d35c7b4b27ed013582ac739037bd15e3a2ebed9af4f7b95"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/METAQA_PREDICTED_ROUTE_PROTOCOL.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/METAQA_PREDICTED_ROUTE_PROTOCOL.md",
+    "sha256": "76a3a934f80cadc09b1697b644b7fd4f74c506ee2064b1cf65e317b080104057"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/METAQA_STAGE1_READONLY_AUDIT_TASK.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/METAQA_STAGE1_READONLY_AUDIT_TASK.md",
+    "sha256": "088029114ed457af996e0665d0e3c249bb97aa8780d264bd590a86b5d7a9d0da"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/public_datasets/metaqa/METAQA_FORMAL_EXPERIMENT_PROTOCOL.md",
+    "release_path": "release_package/05_复现源码/experiments/public_datasets/metaqa/METAQA_FORMAL_EXPERIMENT_PROTOCOL.md",
+    "sha256": "560715cd76f57c16b7e81f1637b5f7f1cd77bb9047891f6040efafe416ca29f0"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/formal_16/metrics.csv",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/formal_16/metrics.csv",
+    "sha256": "875c689d3ec6adfe5d3a8379d4fec415184277f45121b5ed11bdf2ee88a05875"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/formal_16/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/formal_16/summary.json",
+    "sha256": "a85975fd4a7e0e03081e662b06874bfa11263ed9a8745af0e76d03704d80a0c2"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/core_path_validation/metrics.csv",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/core_path_validation/metrics.csv",
+    "sha256": "b20904684afc82bbde97672813fa9d6722815518b56083f15a11e97346962f84"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/core_path_validation/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/core_path_validation/summary.json",
+    "sha256": "20d46d4e4405f48909ba564d53cc0b211f758e474081751add124ce58bbb3292"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/guard_independent_regression_80/metrics.csv",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/guard_independent_regression_80/metrics.csv",
+    "sha256": "a00dad74f38b4498aeb1c8fb3573b7491120b653b7bb67e65469e93fa79e5075"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/guard_independent_regression_80/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/guard_independent_regression_80/summary.json",
+    "sha256": "e5bed5a5424372127e2a8d86c9726ab56189a4e9bd14eddb6140b044d7ffb285"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/offline_core_route_guard_16/metrics.csv",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/offline_core_route_guard_16/metrics.csv",
+    "sha256": "7cf320d4ad02ed35c68b35090bcc27a46ec85cf4d368d451742ec480b44bda0b"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/offline_core_route_guard_16/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/offline_core_route_guard_16/summary.json",
+    "sha256": "135fbc659e57edc5597cb4d5054a9520ddab4c2cfde7803fcb075e535911998e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/runner_smoke_1/metrics.csv",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/runner_smoke_1/metrics.csv",
+    "sha256": "2f54e1c2f19178aa94b9366434a99db729a7cd5d791e761dd057f0aa1ce681fe"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/results/runner_smoke_1/summary.json",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/results/runner_smoke_1/summary.json",
+    "sha256": "b09a0dd8891e11b476acfb3451244c03378c2049b818ae3294d5e9441446f7d5"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/reports/offline_core_route_guard_ablation_16.md",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/reports/offline_core_route_guard_ablation_16.md",
+    "sha256": "112c871d6b0eb3181e6937f7cccdbdf26af03a83c3f478338d0aa43b2bb01421"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/reports/formal_16_compatibility_analysis.md",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/reports/formal_16_compatibility_analysis.md",
+    "sha256": "a12960f3cbaad6887bc0673eaf2d3ec79c6fcf8e7438018ecc304d2f79274dc6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/reports/guard_independent_regression_80.md",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/reports/guard_independent_regression_80.md",
+    "sha256": "7b09bc2e40645eebddd0d46c7e3e0b83677d68270c0ec5f92f0c53c9662260c1"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/scripts/test_core_route_guard.py",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/scripts/test_core_route_guard.py",
+    "sha256": "f5a8a92decb95437916b32303f7fe37b0305cbe509cf26f473388c62ee2eea01"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/scripts/run_offline_core_route_guard_ablation.py",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/scripts/run_offline_core_route_guard_ablation.py",
+    "sha256": "3f0bf1583dea73780dec9f53feae4f2fb41c3a5c5c0ca810f3eb77ad4e1947ff"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/scripts/core_route_guard.py",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/scripts/core_route_guard.py",
+    "sha256": "5d5dd72e286140336c4e64a5077ef6abf9591caec0f559f4e89ba6a8f3b34f86"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/scripts/run_guard_independent_regression.py",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/scripts/run_guard_independent_regression.py",
+    "sha256": "f4969d090b93254df5ae0ff19121707fe572cdd92deba5fce06311af9bbc6e80"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/scripts/run_gansu_v8_core_compatibility.py",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/scripts/run_gansu_v8_core_compatibility.py",
+    "sha256": "712355b622b534688dea914b0132542e807d1fcde2e2857631a0dafade354b47"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "experiments/gansu_core_compatibility/README.md",
+    "release_path": "release_package/05_复现源码/experiments/gansu_core_compatibility/README.md",
+    "sha256": "8e784586abbecd4b57f079263f701fe921ab7dfbacd76abf12b7ae93c5ce032e"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "app/评测脚本/真实自由问答测试集批量评测_v1.py",
+    "release_path": "release_package/05_复现源码/app/评测脚本/真实自由问答测试集批量评测_v1.py",
+    "sha256": "b438cbffd1e3fbf7e8b1dc1af10557de5551b5fbf1de6f2f165943cf10932c38"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/config_sentence_transformers.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/config_sentence_transformers.json",
+    "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/1_Pooling/config.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/1_Pooling/config.json",
+    "sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/modules.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/modules.json",
+    "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/sentence_bert_config.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/sentence_bert_config.json",
+    "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/tokenizer.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/tokenizer.json",
+    "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/config.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/config.json",
+    "sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/README.md",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/README.md",
+    "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/model.safetensors",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/model.safetensors",
+    "sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/special_tokens_map.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/special_tokens_map.json",
+    "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/vocab.txt",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/vocab.txt",
+    "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+  },
+  {
+    "source_archive": "SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_20260616.tar.gz",
+    "source_path": "runtime_data/models/bge-small-zh-v1.5/tokenizer_config.json",
+    "release_path": "release_package/04_数据与知识资源/models/bge-small-zh-v1.5/tokenizer_config.json",
+    "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+  }
+]

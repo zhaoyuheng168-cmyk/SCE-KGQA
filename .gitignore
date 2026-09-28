@@ -1,27 +1,34 @@
+# Runtime and local configuration
 .env
-.venv/
-venv/
+kag_config.yaml
+*.pid
+nohup.out
+*_background.log
+
+# Python caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.coverage
-htmlcov/
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-*.log
-*.pid
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local/private backup files
+*.bak
 *.tmp
-*.zip
-*.pdf
-*.html
-.streamlit/secrets.toml
+*.part
+SCE_KGQA_OLD_SERVER_WORK_MODELS_BACKUPS_*.tar.gz
+GTF_SERVER_RUNTIME_BACKUP_*.tar.gz
+
+# New public reproduction runtime and private local configuration
+.env.*
+!.env.example
 runtime_data/
-data/full/
-data/private/
-results/raw/
-models/
-indexes/
+**/kag_config.yaml
+**/.cache/
+*.key
+*.pem

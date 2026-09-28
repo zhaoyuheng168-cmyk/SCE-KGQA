@@ -1,0 +1,17 @@
+name: sce-kgqa-repro
+services:
+  neo4j:
+    image: neo4j:5.26.0
+    ports:
+      - "127.0.0.1:7475:7474"
+      - "127.0.0.1:7688:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/${GTF_NEO4J_PASSWORD:?Set your local Neo4j password in .env}"
+    volumes:
+      - neo4j_data:/data
+  inspector:
+    build: .
+    profiles: [inspect]
+    command: ["python", "tools/validate_release.py"]
+volumes:
+  neo4j_data:

@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "methods": [
+    {
+      "method": "entity_linked_graphrag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "graph_only_kgqa",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "hybrid_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "kg_context_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "langchain_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "llamaindex_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "llm_only",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "naive_bm25_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "naive_vector_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "rule_based_kgqa",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "sce_kgqa_full",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    },
+    {
+      "method": "text_kg_rag",
+      "passed": true,
+      "rows": 1300,
+      "summary_differences": [],
+      "row_differences": []
+    }
+  ],
+  "scorer_provenance": "Original June scorer recovered from archived research runtime and invoked unchanged."
+}
