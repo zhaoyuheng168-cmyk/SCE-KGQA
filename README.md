@@ -111,3 +111,5 @@ python scripts/download_models.py --model kopl
 ```
 
 公开包保留 KQA Pro 原数据、冻结候选、逐题预测和原迁移脚本，仅复现当时完成的迁移范围。
+
+完整 ZIP 通过 Release 分卷附件传输。`python scripts/fetch_assets.py` 自动下载、逐卷校验、合并为原 ZIP，再恢复全量研究目录；Git 管理的启动脚本和文档保持当前仓库版本。

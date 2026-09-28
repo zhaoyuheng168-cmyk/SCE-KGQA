@@ -1,11 +1,97 @@
 {
   "version": "2026.09.28",
   "archive": "SCE-KGQA_public_assets_20260928.zip",
-  "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip",
-  "publication_state": "prepared; attachment integrity verified before publishing",
+  "download_url": null,
+  "publication_state": "volumes prepared; full archive SHA256 unchanged",
   "sha256": "46047a76dfe2ab7ad858ea17aa279c9c926a87b3a001997a688a526716b0113c",
   "bytes": 339299260,
   "model_policy": "BGE bundled; original KoPL obtained from pinned publisher revision",
   "uncompressed_bytes": 2361796997,
-  "files": 6690
+  "files": 6690,
+  "parts": [
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part01",
+      "bytes": 25165824,
+      "sha256": "64f1332817c693ea992ba3bf2431330267c354d714f2f074a1960977e87831c0",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part01"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part02",
+      "bytes": 25165824,
+      "sha256": "5974f3458f31cd19f6f227bf943e2f758774d3b78916126f416ea144aa455fa7",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part02"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part03",
+      "bytes": 25165824,
+      "sha256": "c0c643bc1f2a90eda8a6237bd078f971934c07b6c0f9d491c90b01575eed9b58",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part03"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part04",
+      "bytes": 25165824,
+      "sha256": "f27c6024bd44c44d034bb50446728c6f0c2ab9866b83d3026eb01cc6659ce350",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part04"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part05",
+      "bytes": 25165824,
+      "sha256": "70055963fa6b3fefacbbc7bf725f2cbcc6ec8a285686136d2f10b33168e0b0ce",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part05"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part06",
+      "bytes": 25165824,
+      "sha256": "751aa657c0b4a5af9f400190299149cb42620ae6db38f5955e98a82da511e87b",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part06"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part07",
+      "bytes": 25165824,
+      "sha256": "8fab09b749faa06375e8aa5525bc01540a467fd3731fd513c59a245e8186259d",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part07"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part08",
+      "bytes": 25165824,
+      "sha256": "9987f1dde76e5ab5408bda94a2c2230a001b01100cae1cbc04e02903a110e02f",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part08"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part09",
+      "bytes": 25165824,
+      "sha256": "20d3721ca7715cb8c6b009c6727d6478255f253e7eed2695ab630197ea015717",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part09"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part10",
+      "bytes": 25165824,
+      "sha256": "412519b161d13c8a5ae58bc7994a1afba3a4a6ca795d60cef4d418f27777d649",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part10"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part11",
+      "bytes": 25165824,
+      "sha256": "c55721f0f5c360e430b20883023344592f51ba2affc8e68e6c340e00197f51b3",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part11"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part12",
+      "bytes": 25165824,
+      "sha256": "d478b42d387bcc6906ff00a4804a7d02e970b3df08fa0887dd33a17beda8bab1",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part12"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part13",
+      "bytes": 25165824,
+      "sha256": "2d1ee01572ea5b2a2d07c0a9ba4484ba29ad3e0dca8665c9295dac1d8c7c830f",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part13"
+    },
+    {
+      "name": "SCE-KGQA_public_assets_20260928.zip.part14",
+      "bytes": 12143548,
+      "sha256": "659773dab07de87d90ab8ad6e5c155fac23178cd1dea8e00deec1e2257e1e5d2",
+      "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part14"
+    }
+  ]
 }
