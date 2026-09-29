@@ -2,7 +2,7 @@
   "version": "2026.09.28",
   "archive": "SCE-KGQA_public_assets_20260928.zip",
   "download_url": null,
-  "publication_state": "volumes prepared; full archive SHA256 unchanged",
+  "publication_state": "published; 14 verified volumes; full archive SHA256 unchanged",
   "sha256": "46047a76dfe2ab7ad858ea17aa279c9c926a87b3a001997a688a526716b0113c",
   "bytes": 339299260,
   "model_policy": "BGE bundled; original KoPL obtained from pinned publisher revision",
@@ -93,5 +93,7 @@
       "sha256": "659773dab07de87d90ab8ad6e5c155fac23178cd1dea8e00deec1e2257e1e5d2",
       "download_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/download/v2026.09.28/SCE-KGQA_public_assets_20260928.zip.part14"
     }
-  ]
+  ],
+  "release_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/tag/v2026.09.28",
+  "published_at": "2026-09-29T01:52:15Z"
 }

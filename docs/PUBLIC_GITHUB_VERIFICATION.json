@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "public_repo_anonymous",
+      "passed": true
+    },
+    {
+      "check": "release_public",
+      "passed": true
+    },
+    {
+      "check": "public_asset_index",
+      "passed": true
+    },
+    {
+      "check": "all_full_asset_volumes_uploaded",
+      "passed": true,
+      "volumes": 14
+    },
+    {
+      "check": "combined_full_archive_size",
+      "passed": true
+    },
+    {
+      "check": "github_server_volume_sha256",
+      "passed": true
+    },
+    {
+      "check": "automatic_join_preserves_full_archive",
+      "passed": true
+    },
+    {
+      "check": "anonymous_zip_download",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part01",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part02",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part03",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part04",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part05",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part06",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part07",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part08",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part09",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part10",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part11",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part12",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part13",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "anonymous_volume_download_SCE-KGQA_public_assets_20260928.zip.part14",
+      "passed": true,
+      "http_status": 206
+    },
+    {
+      "check": "published_attachment_SCE-KGQA_public_assets_20260928.zip.sha256",
+      "passed": true
+    },
+    {
+      "check": "published_attachment_ASSET_MANIFEST.csv",
+      "passed": true
+    },
+    {
+      "check": "published_attachment_PUBLICATION_VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "published_attachment_UPSTREAM_MODEL.json",
+      "passed": true
+    },
+    {
+      "check": "public_checksum_file",
+      "passed": true
+    },
+    {
+      "check": "tag_targets_reviewed_code",
+      "passed": true
+    },
+    {
+      "check": "no_authorization_header",
+      "passed": true
+    }
+  ],
+  "repository_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA",
+  "release_url": "https://github.com/zhaoyuheng168-cmyk/SCE-KGQA/releases/tag/v2026.09.28",
+  "release_id": 398115741,
+  "archive_sha256": "46047a76dfe2ab7ad858ea17aa279c9c926a87b3a001997a688a526716b0113c",
+  "archive_bytes": 339299260,
+  "github_uploaded": true,
+  "anonymous_verification": true,
+  "published_at": "2026-09-29T01:52:15Z",
+  "code_commit": "65d0082cade5f6656262695f0369a5facba86575",
+  "asset_volumes": 14
+}
